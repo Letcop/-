@@ -1,0 +1,1361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Letcop</title>
+  <link rel="shortcut icon" href="assets/icons/logo.svg" type="image/x-icon">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+  <!-- start header page -->
+  <header>
+    <div class="container">
+      <div class="row no-gutters navbar  d-flex justify-content-start align-items-center">
+        <div class="col-1 d-flex">
+          <a href="#"><img src="assets/icons/nav_logo.png" alt="" class="nav_logo"></a>
+        </div>
+        <div class=" col-md-5 desktop_nav_items ml-4 mr-auto">
+          <ul class="nav_item">
+            <li class="nav_list"><a href="#">Заказы</a></li>
+            <li class="nav_list"><a href="#">Вакансии</a></li>
+            <li class="nav_list nav_list_keydown">Люди
+              <i class="fas fa-angle-down"></i>
+              <div class="nav_list_info">
+                <a class="nav_last_info" href="#">Все исполнители</a>
+                <a class="nav_last_info" href="#">Все команды</a>
+                <a class="nav_last_info" href="#">Офлайн специалисты</a>
+              </div>
+            </li>
+            <li class="nav_list nav_list_keydown">Фрум
+              <i class="fas fa-angle-down"></i>
+              <div class="nav_list_info">
+                <a class="nav_last_info" href="#">Lorem</a>
+                <a class="nav_last_info" href="#">Lorem</a>
+                <a class="nav_last_info" href="#">Lorem</a>
+              </div>
+
+            </li>
+            <li class="nav_list nav_list_keydown">Еще
+              <i class="fas fa-angle-down"></i>
+              <div class="nav_list_info">
+                <a class="nav_last_info" href="#">Реферальная программа</a>
+                <a class="nav_last_info" href="#">База знаний</a>
+                <a class="nav_last_info" href="#">Новости</a>
+                <a class="nav_last_info" href="#">Форум</a>
+                <a class="nav_last_info" href="#">Тарифы</a>
+                <a class="nav_last_info" href="#">Блог</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-5 col-sm-8 col-10 d-flex align-center justify-content-between nav_right ml-auto">
+          <div class="nav_language">
+            <select name="" id="">
+              <option value="">Ru</option>
+              <option value="">Eng</option>
+              <option value="">Uz</option>
+            </select>
+          </div>
+          <div class="nav_signIn">
+            <a href="#" class="registration">
+              <img src="assets/icons/sign-in.png" alt="">
+              Регистрация
+            </a>
+            <div class="line"></div>
+            <a href="#" class="sign_in">Войти</a>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+    <!-- start mobile navbar ********************* -->
+    <div class="menu_burger">
+      <div class="menu_burger_list" id="burger_list1"></div>
+      <div class="menu_burger_list" id="burger_list2"></div>
+      <div class="menu_burger_list" id="burger_list3"></div>
+    </div>
+
+    <div class="nav_mobile">
+      <ul class="nav_item_mobile">
+        <li class="nav_list"><a href="#">Заказы</a></li>
+        <li class="nav_list"><a href="#">Вакансии</a></li>
+        <li class="nav_list nav_list_keydown">Люди
+          <i class="fas fa-angle-down"></i>
+          <div class="nav_list_info">
+            <a class="nav_last_info" href="#">Все исполнители</a>
+            <a class="nav_last_info" href="#">Все команды</a>
+            <a class="nav_last_info" href="#">Офлайн специалисты</a>
+          </div>
+        </li>
+        <li class="nav_list nav_list_keydown">Фрум
+          <i class="fas fa-angle-down"></i>
+          <div class="nav_list_info">
+            <a class="nav_last_info" href="#">Lorem</a>
+            <a class="nav_last_info" href="#">Lorem</a>
+            <a class="nav_last_info" href="#">Lorem</a>
+          </div>
+
+        </li>
+        <li class="nav_list nav_list_keydown">Еще
+          <i class="fas fa-angle-down"></i>
+          <div class="nav_list_info">
+            <a class="nav_last_info" href="#">Реферальная программа</a>
+            <a class="nav_last_info" href="#">База знаний</a>
+            <a class="nav_last_info" href="#">Новости</a>
+            <a class="nav_last_info" href="#">Форум</a>
+            <a class="nav_last_info" href="#">Тарифы</a>
+            <a class="nav_last_info" href="#">Блог</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="nav_mobile_bgc"></div>
+    <!-- End Navbar -->
+
+    <div class="container header_title">
+      <div class="row mobile_header_title">
+        <div class="col-12">
+          <span class="header_title_text">Биржа Letcop </span>
+        </div>
+        <div class="col-12">
+          <span class="title_last_text">
+            Одна из первых фриланс-бирж в Средней Азии
+          </span>
+        </div>
+        <div class="col-12 header_form">
+          <form action="#">
+            <input type="text" placeholder="Что нужно сделать?" required>
+            <button type="submit">Заказать</button>
+          </form>
+        </div>
+        <div class="col-12 header_link">
+          <span class="header_link_text">Например: <a href="#">создать сайт</a> или <a href="#">написать продающий
+              текст</a></span>
+        </div>
+      </div>
+      <div class="row row_start_button">
+        <div class="col-md-3 col-sm-4 col-7 ml-auto">
+          <button class="start_new">с чего начать?</button>
+        </div>
+      </div>
+    </div>
+    <div class="header_bottom">
+      <div class="container">
+        <div class="row no-gutters row_circle">
+          <div class="col-md-3 col-6 header_bottom_list">
+            <div class="circle_green">1</div>
+            <div class="circle_text">
+              <span class="span-text">Заказчик</span>
+              <p>Размещает свой заказ
+                за пару минут</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-6 header_bottom_list">
+            <div class="circle_green">2</div>
+            <div class="circle_text">
+              <span class="span-text">Исполнитель</span>
+              <p>Предлагают услуги,
+                цены и сроки</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-6 header_bottom_list">
+            <div class="circle_green">3</div>
+            <div class="circle_text">
+              <span class="span-text">Заказчик</span>
+              <p>Выбирает подходя-
+                щего исполнителя</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-6 header_bottom_list">
+            <div class="circle_green">4</div>
+            <div class="circle_text">
+              <span class="span-text">Исполнитель</span>
+              <p>Выполняет работу
+                и получает оплату</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- End header ****************** -->
+
+  <!-- Start main ******************* -->
+
+  <main>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <p class="title_text">Мастера своего дела</p>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center mb-4">
+        <div class="col-lg-4 col-sm-10 col-12">
+          <div class="user_card w-100">
+            <div class="user_title_info">
+              <div class="user_img">
+                <img src="assets/images/user1.png" alt="">
+              </div>
+              <div class="user_name">
+                <span>Георгий Петров.</span>
+
+                <div class="user_nickName">
+                  <span>masteryoda128</span>
+                  <div class="user_stars">
+                    <img src="assets/images/on_star.png" alt="">
+                    <img src="assets/images/on_star.png" alt="">
+                    <img src="assets/images/on_star.png" alt="">
+                    <img src="assets/images/on_star.png" alt="">
+                    <img src="assets/images/off_star.png" alt="">
+                  </div>
+                </div>
+                <div class="user_job">
+                  <span>WEB разработка</span>
+                </div>
+              </div>
+            </div>
+            <div class="user_satus text-center">
+              <div class="on_online">
+                Занят
+              </div>
+            </div>
+            <div class="user_activity">
+              <span>Разработка. Оптимизация и продвижение.
+                Техническая поддержка.</span>
+            </div>
+            <div class="user_projects">
+              <span>75 успешных проектов | 50 отзывов</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-10 col-12 mobole_list">
+          <div class="user_card w-100">
+            <div class="user_title_info">
+              <div class="user_img">
+                <img src="assets/images/user2.png" alt="">
+              </div>
+              <div class="user_name">
+                <span>Максим Лученко.</span>
+
+                <div class="user_nickName">
+                  <span>maxl2048</span>
+                  <div class="user_stars">
+                    <img src="assets/images/on_star.png" alt="">
+                    <img src="assets/images/on_star.png" alt="">
+                    <img src="assets/images/on_star.png" alt="">
+                    <img src="assets/images/on_star.png" alt="">
+                    <img src="assets/images/off_star.png" alt="">
+                  </div>
+                </div>
+                <div class="user_job">
+                  <span>Проектирование</span>
+                </div>
+              </div>
+            </div>
+            <div class="user_satus text-center">
+              <div class="off_online">
+                Свободен
+              </div>
+            </div>
+            <div class="user_activity">
+              <span>Проектирование моделей успешных обьектов.</span>
+            </div>
+            <div class="user_projects">
+              <span>157 успешных проектов | 79 отзывов</span>
+            </div>
+          </div>
+        </div>
+        <d iv class="col-lg-4 col-sm-10 col-12">
+          <div class="user_card w-100">
+            <div class="user_title_info">
+              <div class="user_img">
+                <img src="assets/images/user3.png" alt="">
+              </div>
+              <div class="user_name">
+                <span>Григорий Петухов и очень
+                  длинная фамилия у него ...</span>
+
+                <div class="user_nickName">
+                  <span>gleb_25slash</span>
+                  <div class="user_stars">
+                    <img src="assets/images/on_star.png" alt="">
+                    <img src="assets/images/on_star.png" alt="">
+                    <img src="assets/images/on_star.png" alt="">
+                    <img src="assets/images/on_star.png" alt="">
+                    <img src="assets/images/off_star.png" alt="">
+                  </div>
+                </div>
+                <div class="user_job">
+                  <span>Дизайн</span>
+                </div>
+              </div>
+            </div>
+            <div class="user_satus text-center">
+              <div class="on_online">
+                Занят
+              </div>
+            </div>
+            <div class="user_activity">
+              <span>Оптимизировать регистрацию на сайте на Joomla!</span>
+            </div>
+            <div class="user_projects">
+              <span>463 успешных проектов | 459 отзывов</span>
+            </div>
+          </div>
+        </d>
+      </div>
+      <!-- End first row -->
+      <div class="row mb-4 d-flex justify-content-center">
+        <div class="col-lg-4 col-sm-10 col-12">
+          <div class="user_card w-100">
+            <div class="user_title_info">
+              <div class="user_img">
+                <img src="assets/images/user4.png" alt="">
+              </div>
+              <div class="user_name">
+                <span>Юрий Луценко.</span>
+
+                <div class="user_nickName">
+                  <span>masteryoda128</span>
+                  <div class="user_stars">
+                    <img src="assets/images/on_star.png" alt="">
+                    <img src="assets/images/on_star.png" alt="">
+                    <img src="assets/images/on_star.png" alt="">
+                    <img src="assets/images/on_star.png" alt="">
+                    <img src="assets/images/off_star.png" alt="">
+                  </div>
+                </div>
+                <div class="user_job">
+                  <span>WEB разработка</span>
+                </div>
+              </div>
+            </div>
+            <div class="user_satus text-center">
+              <div class="on_online">
+                Занят
+              </div>
+            </div>
+            <div class="user_activity">
+              <span>Разработка. Оптимизация и продвижение.
+                Техническая поддержка.</span>
+            </div>
+            <div class="user_projects">
+              <span>75 успешных проектов | 50 отзывов</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-10 col-12 mobole_list">
+          <div class="user_card w-100">
+            <div class="user_title_info">
+              <div class="user_img">
+                <img src="assets/images/user5.png" alt="">
+              </div>
+              <div class="user_name">
+                <span>Игорь Лученко.</span>
+
+                <div class="user_nickName">
+                  <span>maxl2048</span>
+                  <div class="user_stars">
+                    <img src="assets/images/on_star.png" alt="">
+                    <img src="assets/images/on_star.png" alt="">
+                    <img src="assets/images/on_star.png" alt="">
+                    <img src="assets/images/on_star.png" alt="">
+                    <img src="assets/images/off_star.png" alt="">
+                  </div>
+                </div>
+                <div class="user_job">
+                  <span>Обработка баз данных</span>
+                </div>
+              </div>
+            </div>
+            <div class="user_satus text-center">
+              <div class="off_online">
+                Свободен
+              </div>
+            </div>
+            <div class="user_activity">
+              <span>Проектирование моделей успешных обьектов.</span>
+            </div>
+            <div class="user_projects">
+              <span>157 успешных проектов | 79 отзывов</span>
+            </div>
+          </div>
+        </div>
+        <d iv class="col-lg-4 col-sm-10 col-12">
+          <div class="user_card w-100">
+            <div class="user_title_info">
+              <div class="user_img">
+                <img src="assets/images/user6.png" alt="">
+              </div>
+              <div class="user_name">
+                <span>Виталий Скоропадский
+                  на волинецький</span>
+
+                <div class="user_nickName">
+                  <span>gleb_25slash</span>
+                  <div class="user_stars">
+                    <img src="assets/images/on_star.png" alt="">
+                    <img src="assets/images/on_star.png" alt="">
+                    <img src="assets/images/on_star.png" alt="">
+                    <img src="assets/images/on_star.png" alt="">
+                    <img src="assets/images/off_star.png" alt="">
+                  </div>
+                </div>
+                <div class="user_job">
+                  <span>Дизайн</span>
+                </div>
+              </div>
+            </div>
+            <div class="user_satus text-center">
+              <div class="on_online">
+                Занят
+              </div>
+            </div>
+            <div class="user_activity">
+              <span>Оптимизировать регистрацию на сайте на Joomla!</span>
+            </div>
+            <div class="user_projects">
+              <span>463 успешных проектов | 459 отзывов</span>
+            </div>
+          </div>
+        </d>
+      </div>
+      <!-- End second row -->
+      <div class="row d-flex justify-content-center mb-4">
+        <div class="col-lg-4 col-sm-10 col-12">
+          <div class="user_card w-100">
+            <div class="user_title_info">
+              <div class="user_img">
+                <img src="assets/images/user7.png" alt="">
+              </div>
+              <div class="user_name">
+                <span>Георгий Петров.</span>
+
+                <div class="user_nickName">
+                  <span>masteryoda128</span>
+                  <div class="user_stars">
+                    <img src="assets/images/on_star.png" alt="">
+                    <img src="assets/images/on_star.png" alt="">
+                    <img src="assets/images/on_star.png" alt="">
+                    <img src="assets/images/on_star.png" alt="">
+                    <img src="assets/images/off_star.png" alt="">
+                  </div>
+                </div>
+                <div class="user_job">
+                  <span>UI - тестировщик</span>
+                </div>
+              </div>
+            </div>
+            <div class="user_satus text-center">
+              <div class="on_online">
+                Занят
+              </div>
+            </div>
+            <div class="user_activity">
+              <span>Разработка. Оптимизация и продвижение.
+                Техническая поддержка.</span>
+            </div>
+            <div class="user_projects">
+              <span>75 успешных проектов | 50 отзывов</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-10 col-12 mobole_list">
+          <div class="user_card w-100">
+            <div class="user_title_info">
+              <div class="user_img">
+                <img src="assets/images/user8.png" alt="">
+              </div>
+              <div class="user_name">
+                <span>Антон Гайда.</span>
+
+                <div class="user_nickName">
+                  <span>maxl2048</span>
+                  <div class="user_stars">
+                    <img src="assets/images/on_star.png" alt="">
+                    <img src="assets/images/on_star.png" alt="">
+                    <img src="assets/images/on_star.png" alt="">
+                    <img src="assets/images/on_star.png" alt="">
+                    <img src="assets/images/off_star.png" alt="">
+                  </div>
+                </div>
+                <div class="user_job">
+                  <span>Обработка баз данных</span>
+                </div>
+              </div>
+            </div>
+            <div class="user_satus text-center">
+              <div class="off_online">
+                Свободен
+              </div>
+            </div>
+            <div class="user_activity">
+              <span>Проектирование моделей успешных обьектов.</span>
+            </div>
+            <div class="user_projects">
+              <span>157 успешных проектов | 79 отзывов</span>
+            </div>
+          </div>
+        </div>
+        <d iv class="col-lg-4 col-sm-10 col-12">
+          <div class="user_card w-100">
+            <div class="user_title_info">
+              <div class="user_img">
+                <img src="assets/images/user9.png" alt="">
+              </div>
+              <div class="user_name">
+                <span>Андрей Ч.</span>
+
+                <div class="user_nickName">
+                  <span>gleb_25slash</span>
+                  <div class="user_stars">
+                    <img src="assets/images/on_star.png" alt="">
+                    <img src="assets/images/on_star.png" alt="">
+                    <img src="assets/images/on_star.png" alt="">
+                    <img src="assets/images/on_star.png" alt="">
+                    <img src="assets/images/off_star.png" alt="">
+                  </div>
+                </div>
+                <div class="user_job">
+                  <span>Дизайн</span>
+                </div>
+              </div>
+            </div>
+            <div class="user_satus text-center">
+              <div class="on_online">
+                Занят
+              </div>
+            </div>
+            <div class="user_activity">
+              <span>Оптимизировать регистрацию на сайте на Joomla!</span>
+            </div>
+            <div class="user_projects">
+              <span>463 успешных проектов | 459 отзывов</span>
+            </div>
+          </div>
+        </d>
+      </div>
+      <!-- End third row -->
+
+      <div class="row d-flex justify-content-center mb-4 ">
+        <div class="col-lg-4 col-sm-10 col-12">
+          <div class="user_card w-100">
+            <div class="user_title_info_last">
+              <div class="user_projects_last">
+                <span>75 успешных проектов</span>
+              </div>
+              <div class="user_img user_img_last">
+                <img src="assets/images/user_last1.png" alt="">
+              </div>
+              <div class="user_nickName">
+                <div class="user_stars">
+                  <img src="assets/images/on_star.png" alt="">
+                  <img src="assets/images/on_star.png" alt="">
+                  <img src="assets/images/on_star.png" alt="">
+                  <img src="assets/images/on_star.png" alt="">
+                  <img src="assets/images/off_star.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="user_last_info_list">
+              <div class="user_name text-center w-100 mt-1 text-uppercase">
+                <span>Крутые бобры</span>
+              </div>
+              <div class="user_job text-center w-100 mt-2">
+                <span>WEB проекты</span>
+              </div>
+              <div class="user_activity text-center w-100">
+                <span>Разработка. Оптимизация и продвижение.
+                  Техническая поддержка.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-10 col-12 mobole_list">
+          <div class="user_card w-100">
+            <div class="user_title_info_last">
+              <div class="user_projects_last">
+                <span>75 успешных проектов</span>
+              </div>
+              <div class="user_img user_img_last">
+                <img src="assets/images/user_last2.png" alt="">
+              </div>
+              <div class="user_nickName">
+                <div class="user_stars">
+                  <img src="assets/images/on_star.png" alt="">
+                  <img src="assets/images/on_star.png" alt="">
+                  <img src="assets/images/on_star.png" alt="">
+                  <img src="assets/images/on_star.png" alt="">
+                  <img src="assets/images/on_star.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="user_last_info_list">
+              <div class="user_name text-center w-100 mt-1 text-uppercase">
+                <span>бобры по круче</span>
+              </div>
+              <div class="user_job text-center w-100 mt-2">
+                <span>WEB проекты</span>
+              </div>
+              <div class="user_activity text-center w-100">
+                <span>Разработка. Оптимизация и продвижение.
+                  Техническая поддержка.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-10 col-12">
+          <div class="user_card w-100">
+            <div class="user_title_info_last">
+              <div class="user_projects_last">
+                <span>75 успешных проектов</span>
+              </div>
+              <div class="user_img user_img_last">
+                <img src="assets/images/user_last3.png" alt="">
+              </div>
+              <div class="user_nickName">
+                <div class="user_stars">
+                  <img src="assets/images/on_star.png" alt="">
+                  <img src="assets/images/off_star.png" alt="">
+                  <img src="assets/images/off_star.png" alt="">
+                  <img src="assets/images/off_star.png" alt="">
+                  <img src="assets/images/off_star.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="user_last_info_list">
+              <div class="user_name text-uppercase text-center w-100 mt-1">
+                <span>ну очень Крутые бобры из
+                  таджикистана</span>
+              </div>
+              <div class="user_job user_job_last text-center w-100 mt-2">
+                <span>WEB проекты</span>
+              </div>
+              <div class="user_activity text-center w-100">
+                <span>Разработка. Оптимизация и продвижение.
+                  Техническая поддержка.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End fourth row -->
+
+      <div class="row d-flex justify-content-center mb-4">
+        <div class="col-lg-4 col-sm-10 col-12">
+          <div class="user_card w-100">
+            <div class="user_title_info_last">
+              <div class="user_projects_last">
+                <span>75 успешных проектов</span>
+              </div>
+              <div class="user_img user_img_last">
+                <img src="assets/images/user_last1.png" alt="">
+              </div>
+              <div class="user_nickName">
+                <div class="user_stars">
+                  <img src="assets/images/on_star.png" alt="">
+                  <img src="assets/images/on_star.png" alt="">
+                  <img src="assets/images/on_star.png" alt="">
+                  <img src="assets/images/on_star.png" alt="">
+                  <img src="assets/images/off_star.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="user_last_info_list">
+              <div class="user_name text-center w-100 mt-1 text-uppercase">
+                <span>Крутые бобры</span>
+              </div>
+              <div class="user_job text-center w-100 mt-2">
+                <span>WEB проекты</span>
+              </div>
+              <div class="user_activity text-center w-100">
+                <span>Разработка. Оптимизация и продвижение.
+                  Техническая поддержка.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-10 col-12 mobole_list">
+          <div class="user_card w-100">
+            <div class="user_title_info_last">
+              <div class="user_projects_last">
+                <span>75 успешных проектов</span>
+              </div>
+              <div class="user_img user_img_last">
+                <img src="assets/images/user_last2.png" alt="">
+              </div>
+              <div class="user_nickName">
+                <div class="user_stars">
+                  <img src="assets/images/on_star.png" alt="">
+                  <img src="assets/images/on_star.png" alt="">
+                  <img src="assets/images/on_star.png" alt="">
+                  <img src="assets/images/on_star.png" alt="">
+                  <img src="assets/images/on_star.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="user_last_info_list">
+              <div class="user_name text-center w-100 mt-1 text-uppercase">
+                <span>бобры по круче</span>
+              </div>
+              <div class="user_job text-center w-100 mt-2">
+                <span>WEB проекты</span>
+              </div>
+              <div class="user_activity text-center w-100">
+                <span>Разработка. Оптимизация и продвижение.
+                  Техническая поддержка.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-10 col-12">
+          <div class="user_card w-100">
+            <div class="user_title_info_last">
+              <div class="user_projects_last">
+                <span>75 успешных проектов</span>
+              </div>
+              <div class="user_img user_img_last">
+                <img src="assets/images/user_last3.png" alt="">
+              </div>
+              <div class="user_nickName">
+                <div class="user_stars">
+                  <img src="assets/images/on_star.png" alt="">
+                  <img src="assets/images/off_star.png" alt="">
+                  <img src="assets/images/off_star.png" alt="">
+                  <img src="assets/images/off_star.png" alt="">
+                  <img src="assets/images/off_star.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="user_last_info_list">
+              <div class="user_name text-uppercase text-center w-100 mt-1">
+                <span>ну очень Крутые бобры из
+                  таджикистана</span>
+              </div>
+              <div class="user_job user_job_last text-center w-100 mt-2">
+                <span>WEB проекты</span>
+              </div>
+              <div class="user_activity text-center w-100">
+                <span>Разработка. Оптимизация и продвижение.
+                  Техническая поддержка.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End fifth row -->
+
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-4 col-sm-10 col-12">
+          <div class="user_card w-100">
+            <div class="user_title_info_last">
+              <div class="user_projects_last">
+                <span>75 успешных проектов</span>
+              </div>
+              <div class="user_img user_img_last">
+                <img src="assets/images/user_last1.png" alt="">
+              </div>
+              <div class="user_nickName">
+                <div class="user_stars">
+                  <img src="assets/images/on_star.png" alt="">
+                  <img src="assets/images/on_star.png" alt="">
+                  <img src="assets/images/on_star.png" alt="">
+                  <img src="assets/images/on_star.png" alt="">
+                  <img src="assets/images/off_star.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="user_last_info_list">
+              <div class="user_name text-center w-100 mt-1 text-uppercase">
+                <span>Крутые бобры</span>
+              </div>
+              <div class="user_job text-center w-100 mt-2">
+                <span>WEB проекты</span>
+              </div>
+              <div class="user_activity text-center w-100">
+                <span>Разработка. Оптимизация и продвижение.
+                  Техническая поддержка.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-10 col-12 mobole_list">
+          <div class="user_card w-100">
+            <div class="user_title_info_last">
+              <div class="user_projects_last">
+                <span>75 успешных проектов</span>
+              </div>
+              <div class="user_img user_img_last">
+                <img src="assets/images/user_last2.png" alt="">
+              </div>
+              <div class="user_nickName">
+                <div class="user_stars">
+                  <img src="assets/images/on_star.png" alt="">
+                  <img src="assets/images/on_star.png" alt="">
+                  <img src="assets/images/on_star.png" alt="">
+                  <img src="assets/images/on_star.png" alt="">
+                  <img src="assets/images/on_star.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="user_last_info_list">
+              <div class="user_name text-center w-100 mt-1 text-uppercase">
+                <span>бобры по круче</span>
+              </div>
+              <div class="user_job text-center w-100 mt-2">
+                <span>WEB проекты</span>
+              </div>
+              <div class="user_activity text-center w-100">
+                <span>Разработка. Оптимизация и продвижение.
+                  Техническая поддержка.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-10 col-12">
+          <div class="user_card w-100">
+            <div class="user_title_info_last">
+              <div class="user_projects_last">
+                <span>75 успешных проектов</span>
+              </div>
+              <div class="user_img user_img_last">
+                <img src="assets/images/user_last3.png" alt="">
+              </div>
+              <div class="user_nickName">
+                <div class="user_stars">
+                  <img src="assets/images/on_star.png" alt="">
+                  <img src="assets/images/off_star.png" alt="">
+                  <img src="assets/images/off_star.png" alt="">
+                  <img src="assets/images/off_star.png" alt="">
+                  <img src="assets/images/off_star.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="user_last_info_list">
+              <div class="user_name text-uppercase text-center w-100 mt-1">
+                <span>ну очень Крутые бобры из
+                  таджикистана</span>
+              </div>
+              <div class="user_job user_job_last text-center w-100 mt-2">
+                <span>WEB проекты</span>
+              </div>
+              <div class="user_activity text-center w-100">
+                <span>Разработка. Оптимизация и продвижение.
+                  Техническая поддержка.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End fifth row -->
+
+
+    </div>
+  </main>
+  <!-- End main ********************* -->
+
+  <section class="interesting_box">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-sm-6 col-8 mb-2  d-flex align-items-center">
+          <img src="assets/images/logotip1.png" alt="">
+          <div class="logotip_text">
+            <span class="sup">9 348</span> <br>
+            <span class="sub">Обработаных
+              заказов
+            </span>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-8 mb-2  d-flex justify-content-betwee align-items-center">
+          <img src="assets/images/logotip2.png" alt="">
+          <div class="logotip_text">
+            <span class="sup">5 568</span><br>
+
+            <span class="sub">Добавленных
+              фрилансеров</span>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-8 mb-2  d-flex justify-content-betwee align-items-center">
+          <img src="assets/images/logotip3.png" alt="">
+          <div class="logotip_text">
+            <span class="sup">98%</span> <br>
+            <span class="sub">Довольных
+              клиентов</span>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-8 mb-2  d-flex justify-content-betwee align-items-center">
+          <img src="assets/images/logotip4.png" alt="">
+          <div class="logotip_text">
+            <span class="sup">3 500</span> <br>
+            <span class="sub">Безопасных
+              сделок</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End section********************* -->
+
+  <aside class="categories_page">
+    <div class="container">
+      <div class="row no-gutters">
+        <div class="col-15">
+          <p class="title_text">Все категории услуг </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-12 aside_tablet_list aside_mobole_list">
+          <div class="aside_card">
+            <div class="aside_card_title">
+              <img src="assets/icons/kategory.svg" alt="categories.svg">
+              <span>WEB-разработка и Сайты</span>
+            </div>
+            <div class="aside_card_list">
+              <ul>
+                <li><a href="">ВЕБ-программирование</a></li>
+                <li><a href="">HTML-верстка</a></li>
+                <li><a href="">Системы управления (CMS)</a></li>
+                <li><a href="">Сайт "Под ключ"</a></li>
+                <li><a href="">Интернет-магазины</a></li>
+                <li><a href="">Тестирование сайтов</a></li>
+              </ul>
+              <ul class="cc">
+                <li>52</li>
+                <li>12</li>
+                <li>28</li>
+                <li>7</li>
+                <li>32</li>
+                <li>2</li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-12 aside_tablet_list aside_mobole_list">
+          <div class="aside_card">
+            <div class="aside_card_title">
+              <img src="assets/icons/Тексты и переводы.svg" alt="categories.svg">
+              <span>Тексты и переводы</span>
+            </div>
+            <div class="aside_card_list">
+              <ul>
+                <li><a href="">Копирайтинг</a></li>
+                <li><a href="">Переводы</a></li>
+                <li><a href="">Редактирование и Корректура</a></li>
+                <li><a href="">Рерайтинг</a></li>
+                <li><a href="">Продающие текста</a></li>
+                <li><a href="">Нейминг и Слоганы</a></li>
+                <li><a href="">Сценарии</a></li>
+                <li><a href="">Транскрибация</a></li>
+              </ul>
+              <ul class="cc">
+                <li>52</li>
+                <li>12</li>
+                <li>28</li>
+                <li>7</li>
+                <li>32</li>
+                <li>2</li>
+                <li>99</li>
+                <li>17</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-12 aside_mobole_list">
+          <div class="aside_card">
+            <div class="aside_card_title">
+              <img src="assets/icons/Программирование ПО и систем.svg" alt="categories.svg">
+              <span> Программирование ПО и систем</span>
+            </div>
+            <div class="aside_card_list">
+              <ul>
+                <li><a href="">Мобильные предложения</a></li>
+                <li><a href="">Прикладное ПО</a></li>
+                <li><a href="">База данных</a></li>
+                <li><a href="">1C-программирование</a></li>
+                <li><a href="">Системное Програм.</a></li>
+                <li><a href="">Разработка игр</a></li>
+                <li><a href="">Встраиваемые системы</a></li>
+                <li><a href="">Тестирование ПО</a></li>
+              </ul>
+              <ul class="cc">
+                <li>52</li>
+                <li>12</li>
+                <li>28</li>
+                <li>7</li>
+                <li>32</li>
+                <li>2</li>
+                <li>99</li>
+                <li>17</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="aside_card">
+            <div class="aside_card_title">
+              <img src="assets/icons/Управление и Менеджмент.svg" alt="categories.svg">
+              <span>Управление персоналом</span>
+            </div>
+            <div class="aside_card_list">
+              <ul>
+                <li><a href="">Управление продажами</a></li>
+                <li><a href="">Управление проектами</a></li>
+                <li><a href="">Подбор персонала (HR)</a></li>
+              </ul>
+              <ul class="cc">
+                <li>52</li>
+                <li>12</li>
+                <li>28</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End first row ***************** -->
+
+      <div class="row middle_row">
+        <div class="col-lg-3 col-md-6 col-12 aside_tablet_list aside_mobole_list">
+          <div class="aside_card">
+            <div class="aside_card_title">
+              <img src="assets/icons/ВЕБ-дизайн и интерфейсы.svg" alt="categories.svg">
+              <span>ВЕБ-дизайн и интерфейсы</span>
+            </div>
+            <div class="aside_card_list">
+              <ul>
+                <li><a href="">Дизайн сайтов</a></li>
+                <li><a href="">Баннеры</a></li>
+                <li><a href="">Дизайн интерфейсов и игр</a></li>
+                <li><a href="">Иконки и Пиксель-арт</a></li>
+                <li><a href="">Дизайн мобильных приложений</a></li>
+              </ul>
+              <ul class="cc">
+                <li>52</li>
+                <li>12</li>
+                <li>28</li>
+                <li>7</li>
+                <li>32</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-12 aside_tablet_list aside_mobole_list">
+          <div class="aside_card">
+            <div class="aside_card_title">
+              <img src="assets/icons/Администрирование сайтов.svg" alt="categories.svg">
+              <span> Администрирование сайтов</span>
+            </div>
+            <div class="aside_card_list">
+              <ul>
+                <li><a href="">Наполнение сайтов</a></li>
+                <li><a href="">Служба поддержки </a></li>
+                <li><a href="">Системное администрирование</a></li>
+              </ul>
+              <ul class="cc">
+                <li>52</li>
+                <li>12</li>
+                <li>28</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-12 aside_mobole_list">
+          <div class="aside_card">
+            <div class="aside_card_title">
+              <img src="assets/icons/Графика и Фотография.svg" alt="categories.svg">
+              <span>Графика и Фотография</span>
+            </div>
+            <div class="aside_card_list">
+              <ul>
+                <li><a href="">Иллюстрации и Рисунки</a></li>
+                <li><a href="">3D-графика</a></li>
+                <li><a href="">Обработка фотографий</a></li>
+                <li><a href="">Фотосъемка</a></li>
+                <li><a href="">Шрифты</a></li>
+              </ul>
+              <ul class="cc">
+                <li>52</li>
+                <li>12</li>
+                <li>28</li>
+                <li>7</li>
+                <li>32</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="aside_card">
+            <div class="aside_card_title">
+              <img src="assets/icons/Аудио, Видео и Мультимедия.svg" alt="categories.svg">
+              <span> Аудио, Видео и Мультимедия</span>
+            </div>
+            <div class="aside_card_list">
+              <ul>
+                <li><a href="">Видеомонтаж</a></li>
+                <li><a href="">Анимация</a></li>
+                <li><a href="">Озвучивание</a></li>
+                <li><a href="">Презентации</a></li>
+                <li><a href="">Музыка и Звуки</a></li>
+                <li><a href="">Аудиомонтаж</a></li>
+              </ul>
+              <ul>
+                <li>52</li>
+                <li>12</li>
+                <li>28</li>
+                <li>7</li>
+                <li>32</li>
+                <li>2</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End second row ************************ -->
+
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-12 aside_tablet_list aside_mobole_list">
+          <div class="aside_card">
+            <div class="aside_card_title">
+              <img src="assets/icons/Учеба и репититорство.svg" alt="categories.svg">
+              <span>Учеба и репититорство</span>
+            </div>
+            <div class="aside_card_list">
+              <ul>
+                <li><a href="">Контрольные и Тесты</a></li>
+                <li><a href="">Рефераты и Курсовые</a></li>
+                <li><a href="">Лабораторные работы</a></li>
+                <li><a href="">Уроки и Репититорство</a></li>
+              </ul>
+              <ul>
+                <li>52</li>
+                <li>12</li>
+                <li>28</li>
+                <li>7</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-12 aside_tablet_list aside_mobole_list">
+          <div class="aside_card">
+            <div class="aside_card_title">
+              <img src="assets/icons/Программирование ПО и систем.svg" alt="categories.svg">
+              <span>Полиграфия и Айдентика</span>
+            </div>
+            <div class="aside_card_list">
+              <ul>
+                <li><a href="">Логотипы и Знаки</a></li>
+                <li><a href="">Дизайн продукции</a></li>
+                <li><a href="">Верстка полиграфии</a></li>
+                <li><a href="">Фирменный стиль</a></li>
+                <li><a href="">Наружная реклама</a></li>
+              </ul>
+              <ul>
+                <li>52</li>
+                <li>12</li>
+                <li>28</li>
+                <li>7</li>
+                <li>32</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-12 aside_mobole_list">
+          <div class="aside_card">
+            <div class="aside_card_title">
+              <img src="assets/icons/Архитектура и Инжиниринг.svg" alt="categories.svg">
+              <span>Архитектура и Инжиниринг</span>
+            </div>
+            <div class="aside_card_list">
+              <ul>
+                <li><a href="">Интерьеры и Экстерьеры</a></li>
+                <li><a href="">Чертежи и Схемы</a></li>
+                <li><a href="">Архитектура зданий</a></li>
+                <li><a href="">Машиностроение</a></li>
+                <li><a href="">Ландшафтный дизайн</a></li>
+              </ul>
+              <ul>
+                <li>52</li>
+                <li>12</li>
+                <li>28</li>
+                <li>7</li>
+                <li>32</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="aside_card">
+            <div class="aside_card_title">
+              <img src="assets/icons/Продвижение сайтов (SEO).svg" alt="categories.svg">
+              <span>Продвижение сайтов (SEO)</span>
+            </div>
+            <div class="aside_card_list">
+              <ul>
+                <li><a href="">Социальные сети (SMM и SMO)</a></li>
+                <li><a href="">Поисковые системы (SEO)</a></li>
+                <li><a href="">Контекстная реклама</a></li>
+                <li><a href="">Маркентиговый анализ</a></li>
+              </ul>
+              <ul>
+                <li>52</li>
+                <li>12</li>
+                <li>28</li>
+                <li>7</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End second row ************************ -->
+    </div>
+  </aside>
+  <!-- End aside********************* -->
+
+  <section class="secure_payment">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <p class="title_text">Безопасный платеж</p>
+        </div>
+        <img src="assets/images/payment.img.png" class="secure_payment_img" alt="">
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="secure_payment_title_text">
+            <ul>
+              <li class="secure_payment_list"><span class="circle"></span>Безопасная сделка — удобная защита фрилансера
+                и работодателя от возможных рисков, связанных с оплатой выполненной работы</li>
+              <li class="secure_payment_list"><span class="circle"></span>Суть сделки: после выбора Исполнителя
+                Работодатель отправляют сумму оплаты за проект. После выполнения проекта деньги автоматически высылаются
+                Исполнителю после подтверждения от двух сторон</li>
+              <li class="secure_payment_list"><span class="circle"></span>По всем работам через безопасную сделку
+                передаются авторские права и соблюдается полная конфиденциальность и защита ваших средств.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End section ***************** -->
+
+  <section class="secure_payment_last">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <p class="title_text">Для чего нужен БП?</p>
+        </div>
+      </div>
+    </div>
+    <div class="d-flex align-items-center justify-content-center secure_mobole_version">
+      <div class="left_box">
+        <p class="box_title_text">Заказчикам</p>
+        <div class="box_list">
+          <div class="box_icons">
+            <img src="assets/icons/возврат.png" alt="">
+            <img class="line" src="assets/icons/line.png" alt="">
+            <img src="assets/icons/доверия.png" alt="">
+            <img class="line" src="assets/icons/line.png" alt="">
+            <img src="assets/icons/работа.png" alt="">
+            <img class="line" src="assets/icons/line.png" alt="">
+            <img src="assets/icons/защита.png" alt="">
+          </div>
+          <div class="box_list_text">
+
+            <ul>
+              <div class="d-flex align-items-start">
+                <img src="assets/icons/mobile1.png" alt="" class="mobile_icon">
+                <li>Гарантия возврата денег<p>Мы гарантируем возврат денег, если исполнитель не справился с законом или
+                    сорвал сроки.</p>
+                </li>
+              </div>
+              <div class="d-flex align-items-start">
+                <img src="assets/icons/mobile2.png" alt="" class="mobile_icon">
+                <li>Доверия заказчиков<p>Ответсвенные фрилансеры больше доверят заказчикам. Фрилансер не потребует у вас
+                    аванса, так как мы выступаем для него гарантом оплаты.</p>
+                </li>
+              </div>
+              <div class="d-flex align-items-start">
+                <img src="assets/icons/mobile3.png" alt="" class="mobile_icon">
+                <li>Работа с разными странами<p>Безопасная сделка это удобный и полностью легальный способ работать с
+                    фрилансерами из других стран, как для организаций, так и для физических лиц.</p>
+                </li>
+              </div>
+              <div class="d-flex align-items-start">
+                <img src="assets/icons/mobile4.png" alt="" class="mobile_icon">
+                <li>Защита<p>По всем работам через безопасную сделку передаются авторские права и соблюдается полная
+                    конфиденциальность и защита ваших средств.</p>
+                </li>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="right_box">
+        <p class="box_title_text">Исполнителям</p>
+        <div class="box_list">
+          <div class="box_icons">
+            <img src="assets/icons/выплата.png" alt="">
+            <img src="assets/icons/line.png" alt="">
+            <img src="assets/icons/удобна.png" alt="">
+            <img src="assets/icons/line.png" alt="">
+            <img src="assets/icons/доверия.png" alt="">
+            <img src="assets/icons/line.png" alt="">
+            <img src="assets/icons/защита2.png" alt="">
+          </div>
+          <div class="box_list_text">
+            <ul>
+              <div class="d-flex align-items-start">
+                <img src="assets/icons/mobile5.png" alt="" class="mobile_icon">
+                <li>Гарантия выплаты<p>100% оплата работы с учетом комиссии, если работа выполнена качественно и в срок.
+                  </p>
+                </li>
+              </div>
+              <div class="d-flex align-items-start">
+                <img src="assets/icons/mobile6.png" alt="" class="mobile_icon">
+                <li>Удобные способы выплаты<p>Для исполнителей физических и юридических лиц мы поддерживаем большое
+                    количество способов выплат, что
+                    сделает оплату более комфортнее.
+                  </p>
+                </li>
+              </div>
+              <div class="d-flex align-items-start">
+                <img src="assets/icons/mobile7.png" alt="" class="mobile_icon">
+                <li>Доверие фрилансеров<p>Заказчики больше доверяют фрилансерам, которые работают через безопасную
+                    сделку,
+                    так как понимают что в этом случае фрилансер заинтересован сделать работу хорошо и качественно.</p>
+                </li>
+              </div>
+              <div class="d-flex align-items-start nnnn">
+                <img src="assets/icons/mobile8.png" alt="" class="mobile_icon">
+                <li>Защита<p>По всем работам через безопасную сделку передаются авторские права и соблюдается полная
+                    конфиденциальность и защита ваших средств.</p>
+                </li>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="assets/js/header.js"></script>
+</body>
+
+</html>
