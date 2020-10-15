@@ -7,7 +7,7 @@
 
 $primary-color: #00cf4d;
 // $primary-color-dark: ;
-// $pr-color:;
+$pr-color: #100f41;
 $primary-color-light: #7fe7a6;
 $primary-color-text: #ffffff;
 $accent-color: #253556; 
@@ -51,12 +51,10 @@ button {
 }
 button:hover,
 .start_new:hover {
-  // -webkit-box-shadow: 0px 0px 13px 2px $primary-color;
-  // -moz-box-shadow: 0px 0px 13px 2px $primary-color;
-  // box-shadow: 0px 0px 13px 2px $primary-color;
+  -webkit-box-shadow: 0px 0px 13px 2px $primary-color;
+  -moz-box-shadow: 0px 0px 13px 2px $primary-color;
+  box-shadow: 0px 0px 13px 2px $primary-color;
   color: $primary-color-text;
-  border: 2px solid $primary-color;
-  box-shadow: inset 200px 0 0 0 $accent-color-light;
 }
 button:focus {
   outline: none;
@@ -75,6 +73,7 @@ button:focus {
     @include background-img('../images/header.jpg');
     padding-top: 15px; 
     position: relative;
+    height: 100vh;
   .navbar {
     display: flex;
     justify-content: center;
@@ -265,8 +264,6 @@ button:focus {
     font-size: 12px;
     font-weight: 500;
     text-transform: uppercase;
-    transition: .6s ease-out;
-    box-shadow: inset 0 0 0 0 $primary-color;
   }
   form input::placeholder {
     font-size: 14px;
@@ -298,8 +295,6 @@ button:focus {
     border-radius: 20px;
     margin-bottom: 135px;
     margin-left: 30px;
-    transition: .5s ease-out;
-    box-shadow: inset 0 0 0 0 $primary-color;
   }
   .header_bottom {
     position: absolute;
@@ -350,6 +345,9 @@ button:focus {
   main {
     background-color: $divider-color_light;
     padding: 35px 0;
+    .row {
+      margin-bottom: 30px;
+    }
     .user_card {
       background-color: $primary-color-text;
       border-radius: 5px;
@@ -412,16 +410,19 @@ button:focus {
     .user_projects {
       margin-top: 10px;
     }
+    .user_last_info_list .user_name span {
+      font-size: 14px;
+    }
     .user_projects span,
     .user_projects_last span {
       font-size: 13px;
-      color: $divider-color-text;
+      color: rgb(161, 158, 158);
       font-weight: 300;
       }
       
       .user_projects_last {
        width: 30%;
-       line-height: 15px;
+       line-height: 17px;
     }
     .user_title_info_last{
       display: flex;
@@ -593,6 +594,57 @@ button:focus {
     }
     .mobile_icon {
       display: none;
+    }
+  }
+  // End section ******************
+
+  footer {
+    @include background-img('../images/footer.jpg');
+    margin-top: 50px;
+    padding: 40px 0 10px;
+    color: $primary-color-text;
+    .footer_logo a {
+      display: flex;
+      text-decoration: none;
+    }
+    .footer_logo .letcop_logo{
+      width: 45px;
+      height: 45px;
+    }
+    .investone_logo {
+      width: 70%;
+    }
+    .footer_logo span {
+      color: $primary-color-text;
+      font-size: 22px;
+      font-weight: 700;
+      line-height: 23px;
+    }
+    .footer_text p {
+      font-size: 20px;
+      font-weight: 500;
+    }
+    .footer_text ul li {
+      list-style: none;
+      font-weight: 300;
+      padding-bottom: 5px;
+    }
+    .footer_text ul li a {
+      text-decoration: none;
+      color: $primary-color-text;
+    }
+    .footer_text ul li a:hover {
+      color: $primary-color;
+      border-bottom: 1px solid $primary-color;
+    }
+    i  {
+      font-size: 25px;
+    }
+    a {
+      color: $primary-color-text;
+    }
+    i:hover {
+      color: $primary-color;
     }
   }
  }

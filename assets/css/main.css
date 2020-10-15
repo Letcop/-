@@ -32,10 +32,9 @@ button {
 
 button:hover,
 .start_new:hover {
+  -webkit-box-shadow: 0px 0px 13px 2px #00cf4d;
+  box-shadow: 0px 0px 13px 2px #00cf4d;
   color: #ffffff;
-  border: 2px solid #00cf4d;
-  -webkit-box-shadow: inset 200px 0 0 0 #12114a;
-          box-shadow: inset 200px 0 0 0 #12114a;
 }
 
 button:focus {
@@ -60,6 +59,7 @@ body header {
   background-repeat: no-repeat;
   padding-top: 15px;
   position: relative;
+  height: 100vh;
 }
 
 body header .navbar {
@@ -302,10 +302,6 @@ body header form button {
   font-size: 12px;
   font-weight: 500;
   text-transform: uppercase;
-  -webkit-transition: .6s ease-out;
-  transition: .6s ease-out;
-  -webkit-box-shadow: inset 0 0 0 0 #00cf4d;
-          box-shadow: inset 0 0 0 0 #00cf4d;
 }
 
 body header form input::-webkit-input-placeholder {
@@ -359,10 +355,6 @@ body header .start_new {
   border-radius: 20px;
   margin-bottom: 135px;
   margin-left: 30px;
-  -webkit-transition: .5s ease-out;
-  transition: .5s ease-out;
-  -webkit-box-shadow: inset 0 0 0 0 #00cf4d;
-          box-shadow: inset 0 0 0 0 #00cf4d;
 }
 
 body header .header_bottom {
@@ -437,6 +429,10 @@ body header .header_bottom .circle_text p {
 body main {
   background-color: #f8f8fa;
   padding: 35px 0;
+}
+
+body main .row {
+  margin-bottom: 30px;
 }
 
 body main .user_card {
@@ -537,16 +533,20 @@ body main .user_projects {
   margin-top: 10px;
 }
 
+body main .user_last_info_list .user_name span {
+  font-size: 14px;
+}
+
 body main .user_projects span,
 body main .user_projects_last span {
   font-size: 13px;
-  color: #c1c4ca;
+  color: #a19e9e;
   font-weight: 300;
 }
 
 body main .user_projects_last {
   width: 30%;
-  line-height: 15px;
+  line-height: 17px;
 }
 
 body main .user_title_info_last {
@@ -787,6 +787,72 @@ body .secure_payment_last .mobile_icon {
   display: none;
 }
 
+body footer {
+  background-image: url("../images/footer.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 50px;
+  padding: 40px 0 10px;
+  color: #ffffff;
+}
+
+body footer .footer_logo a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+}
+
+body footer .footer_logo .letcop_logo {
+  width: 45px;
+  height: 45px;
+}
+
+body footer .investone_logo {
+  width: 70%;
+}
+
+body footer .footer_logo span {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 23px;
+}
+
+body footer .footer_text p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+body footer .footer_text ul li {
+  list-style: none;
+  font-weight: 300;
+  padding-bottom: 5px;
+}
+
+body footer .footer_text ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+body footer .footer_text ul li a:hover {
+  color: #00cf4d;
+  border-bottom: 1px solid #00cf4d;
+}
+
+body footer i {
+  font-size: 25px;
+}
+
+body footer a {
+  color: #ffffff;
+}
+
+body footer i:hover {
+  color: #00cf4d;
+}
+
 @media screen and (min-width: 993px) and (max-width: 1257px) {
   body header .nav_signIn {
     font-size: 12px !important;
@@ -881,9 +947,15 @@ body .secure_payment_last .mobile_icon {
   body .right_box {
     width: 100% !important;
   }
+  body .footer_logo {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 768px) {
+  body header {
+    height: 115vh !important;
+  }
   body .desktop_nav_items {
     display: none;
   }
@@ -936,6 +1008,9 @@ body .secure_payment_last .mobile_icon {
   }
   body .box_title_text {
     font-size: 20px !important;
+  }
+  body .footer_logo {
+    display: none;
   }
 }
 
@@ -1106,6 +1181,10 @@ body .secure_payment_last .mobile_icon {
   }
   body .nav_logo {
     width: 90% !important;
+  }
+  body .footer_text p {
+    font-size: 16.5px !important;
+    font-weight: 700 !important;
   }
 }
 /*# sourceMappingURL=main.css.map */
