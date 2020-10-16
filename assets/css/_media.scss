@@ -1,3 +1,17 @@
+@media screen and (min-width: 2400px) {
+  body {
+    .box_list_text li {
+      font-size: 25px !important;
+    }
+    .box_list_text li p {
+      font-size: 20px !important;
+    }
+    .box_title_text {
+      padding-left: 100px !important;
+    }
+  }
+  }
+
 @media screen and (min-width: 993px) and (max-width: 1257px) {
 body {
   header {
@@ -20,6 +34,9 @@ body {
       .nav_mobile_bgc {
         display: none;
       }
+    }
+    .footer_logo_sub {
+      display: none !important;
     }
   }
 }
@@ -67,6 +84,10 @@ body {
       line-height: 10px;
       padding-top: 3px;
     }
+    .nav_language,
+    .nav_signIn {
+      margin-top: 30px;
+    }
     .mobole_list {
       margin: 20px 0 !important;
     }
@@ -83,6 +104,7 @@ body {
       width: 70% !important;
     }
     .secure_mobole_version {
+      margin-top: 280px !important;
       flex-direction: column;
     }
     .left_box {
@@ -94,18 +116,32 @@ body {
     .footer_logo {
       display: none;
     }
+    footer {
+      margin-top: 300px !important;
+    }
+    .nav_logo {
+      display: none !important;
+    }
   }
 }
 @media only screen and(max-width: 768px) {
   body {
     header {
-      height: 115vh !important;
+      height: 100% !important;
+    }
+    .nav_logo {
+      display: none !important;
     }
     .desktop_nav_items {
       display: none;
     }
     .menu_burger {
       left: 50px;
+    }
+    
+    .nav_language,
+    .nav_signIn {
+      margin-top: 30px;
     }
     .change_bg {
       width: 50% !important;
@@ -137,6 +173,7 @@ body {
     }
     .secure_mobole_version {
       flex-direction: column;
+      margin-top: 300px !important;
     }
     .left_box,
     .right_box {
@@ -147,9 +184,14 @@ body {
     .box_title_text {
       font-size: 20px !important;
     }
-    
+    footer {
+      margin-top: 320px !important;
+    }
     .footer_logo {
       display: none;
+    }
+    .copy {
+      display: none !important;
     }
   }
 }
@@ -158,6 +200,7 @@ body {
 @media only screen and(max-width: 567px) {
   body {
     header {
+      height: 100% !important;
       .line {
         display: none;
       }
@@ -168,11 +211,6 @@ body {
         margin-left: 90px;
         font-size: 14px !important;
         margin-top: 15px;
-      }
-      .nav_language {
-        position: absolute;
-        right: 0;
-        top: 40px;
       }
       .nav_logo {
         width: 150%;
@@ -221,21 +259,26 @@ body {
       margin-top: 90px !important;
     }
     .header_title_text {
-      font-size: 35px !important;
+      font-size: 30px !important;
     }
-    .title_last_text {
-      font-size: 15px !important;
+    .title_last_text,
+    .header_link_text {
+      font-size: 14px !important;
     }
     form input {
-      width: 290px !important;
+      width: 250px !important;
       height: 40px !important;
     }
     form button {
-      width: 200px !important;
+      width: 180px !important;
       height: 40px !important;
       border-radius: 30px;
       margin-left: 0 !important;
       margin-top: 15px;
+    }
+    .start_new {
+      margin-top: -50px !important;
+      margin-bottom: 160px !important;
     }
     .header_link_text {
       font-size: 14px !important;
@@ -285,6 +328,9 @@ body {
     .box_title_text {
       padding-left: 30px;
     }
+    footer {
+      margin-top: 300px !important;
+    }
   }
 }
 
@@ -293,7 +339,11 @@ body {
     .left_box,
     .right_box {
       padding: 10px !important;
-      height: 130vh !important;
+      height: 100% !important;
+    }
+    
+    .secure_mobole_version {
+      margin-top: 300px !important;
     }
     .box_title_text {
       font-size: 18px !important;
@@ -324,10 +374,17 @@ body {
       width: 90% !important;
       // margin-left: 90px;
     }
+    footer {
+      margin-top: 300px !important;
+    }
     
     .footer_text p {
       font-size: 16.5px !important;
       font-weight: 700 !important;
+    }
+    .registration {
+      width: 120px !important;
+      margin-left: -60px !important;
     }
   }
 }

@@ -30,21 +30,6 @@ $divider-color-text: #c1c4ca;
   justify-content: space-between;
   align-items: center;
 }
-
-::-webkit-scrollbar {
-  width: 8px;
-}
-::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey; 
-  border-radius: 10px;
-}
-::-webkit-scrollbar-thumb {
-  background: $primary-color; 
-  border-radius: 5px;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: green; 
-}
 button {
   border: none;
   background-color: $primary-color;
@@ -73,7 +58,7 @@ button:focus {
     @include background-img('../images/header.jpg');
     padding-top: 15px; 
     position: relative;
-    height: 100vh;
+    height: 100%;
   .navbar {
     display: flex;
     justify-content: center;
@@ -152,6 +137,9 @@ button:focus {
   .nav_last_info:hover  {
     border-bottom: 2px solid $primary-color;
     transition: .3s ease-out;
+  }
+  .nav_language {
+    margin-left: 30px;
   }
   .rotateDown {
     transform: rotate(180deg);
@@ -550,22 +538,24 @@ button:focus {
   // End section *******************
 
   .secure_payment_last {
-    margin-top: 20px;
     color: $primary-color-text;
     .left_box {
-      padding: 45px 50px 45px 100px;
       @include background-img('../images/customer.jpg');
+    }
+    .secure_payment_box {
+      height: 600px !important;
+    }
+    .left_box, 
+    .right_box {
       width: 50%;
-      height: 100vh;
+      height: 100%;
+      padding: 30px 50px 50px 100px;
     }
     .right_box {
-      padding: 45px 50px 45px 100px;
       @include background-img('../images/Performers.jpg');
-      width: 50%;
-      height: 100vh;
     }
     .box_title_text {
-      font-size: 25px;
+      font-size: 22px;
       font-weight: 700;
       text-transform: uppercase;
     }
@@ -575,7 +565,9 @@ button:focus {
       margin: 0;
     }
     .box_list {
-      @include d-lex()
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
     .box_list_text ul {
       padding-left: 15px; 
@@ -603,7 +595,8 @@ button:focus {
     margin-top: 50px;
     padding: 40px 0 10px;
     color: $primary-color-text;
-    .footer_logo a {
+    .footer_logo a,
+    .footer_logo_sub a {
       display: flex;
       text-decoration: none;
     }
@@ -612,7 +605,12 @@ button:focus {
       height: 45px;
     }
     .investone_logo {
-      width: 70%;
+      width: 100%;
+    }
+    .investone_logo_sub {
+      display: block;
+      width: 60%;
+      margin-left: 30px;
     }
     .footer_logo span {
       color: $primary-color-text;
@@ -620,18 +618,23 @@ button:focus {
       font-weight: 700;
       line-height: 23px;
     }
+    .footer_logo_sub span {
+      font-size: 18px;
+      line-height: 16px;
+    }
     .footer_text p {
-      font-size: 20px;
+      font-size: 18px;
       font-weight: 500;
     }
     .footer_text ul li {
       list-style: none;
       font-weight: 300;
-      padding-bottom: 5px;
+      padding-bottom: 2px;
     }
     .footer_text ul li a {
       text-decoration: none;
       color: $primary-color-text;
+      font-size: 12px;
     }
     .footer_text ul li a:hover {
       color: $primary-color;
@@ -645,6 +648,15 @@ button:focus {
     }
     i:hover {
       color: $primary-color;
+    }
+    .footer_logo_sub {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .letcop_logo_sub {
+      width: 35px;
+      height: 35px;
     }
   }
  }
