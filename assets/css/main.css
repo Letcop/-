@@ -477,6 +477,7 @@ body main .user_card {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border: 1px solid #ffffff;
+  height: 220px;
 }
 
 body main .user_card:hover {
@@ -521,7 +522,7 @@ body main .user_name {
 body main .user_name span {
   font-size: 20px;
   font-weight: 500;
-  line-height: 14px;
+  line-height: 17px;
 }
 
 body main .user_nickName span {
@@ -580,8 +581,9 @@ body main .user_projects {
 }
 
 body main .user_last_info_list .user_name span {
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 500;
+  padding-top: 5px;
 }
 
 body main .user_projects span,
@@ -763,14 +765,10 @@ body .secure_payment_last .left_box {
   background-repeat: no-repeat;
 }
 
-body .secure_payment_last .secure_payment_box {
-  height: 600px !important;
-}
-
 body .secure_payment_last .left_box,
 body .secure_payment_last .right_box {
   width: 50%;
-  height: 100%;
+  height: 600px;
   padding: 30px 50px 50px 100px;
 }
 
@@ -846,6 +844,7 @@ body footer {
   margin-top: 50px;
   padding: 40px 0 10px;
   color: #ffffff;
+  /* Footer */
 }
 
 body footer .footer_logo a,
@@ -934,6 +933,115 @@ body footer .letcop_logo_sub {
   height: 35px;
 }
 
+body footer .dis {
+  display: none;
+}
+
+body footer .container_ded {
+  width: 88.99%;
+  margin: 10px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+body footer .footer {
+  background: url(img/footer.jpg) no-repeat;
+  background-size: cover;
+  color: #fff;
+  background-color: #12114A;
+}
+
+body footer .container_ded:last-child {
+  margin: 0 auto;
+}
+
+body footer .social a i {
+  font-size: 20px;
+}
+
+body footer .footer__item {
+  margin: 20px 0;
+  margin-right: 5%;
+}
+
+body footer .footer__item:last-child {
+  margin-right: 0;
+}
+
+body footer .footer__item:first-child a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+body footer .letcop__com {
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  font-size: 165%;
+  font-weight: 700;
+}
+
+body footer .letcop__com div {
+  height: 57px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  line-height: 20px;
+}
+
+body footer .letcop__com div span {
+  font-family: 'Montserrat';
+}
+
+body footer #letcop_com {
+  width: 55px;
+  height: 57px;
+}
+
+body footer #investonse {
+  width: 163px;
+  height: 33px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+body footer .olymp p {
+  font-size: 100%;
+  margin-top: 20px;
+}
+
+body footer .footer__item__head {
+  margin: 10px 0 20px;
+  font-weight: 600;
+}
+
+body footer .item__list {
+  line-height: 1.5em;
+  font-size: 14px;
+}
+
+body footer .soc-end a {
+  margin-right: 15px;
+}
+
 @media screen and (min-width: 2400px) {
   body .box_list_text li {
     font-size: 25px !important;
@@ -954,6 +1062,9 @@ body footer .letcop_logo_sub {
   body .right_box {
     padding: 20px !important;
   }
+  body .user_nickName span {
+    font-size: 10px !important;
+  }
 }
 
 @media only screen and (min-width: 993px) {
@@ -965,6 +1076,9 @@ body footer .letcop_logo_sub {
   body .footer_logo_sub {
     display: none !important;
   }
+  body .footer__mob {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 769px) and (max-width: 992px) {
@@ -972,7 +1086,7 @@ body footer .letcop_logo_sub {
     display: none;
   }
   body .menu_burger {
-    left: 100px;
+    left: 80px !important;
   }
   body .nav_item_mobile {
     z-index: 2;
@@ -1035,18 +1149,23 @@ body footer .letcop_logo_sub {
   body .secure_payment_title_text {
     width: 70% !important;
   }
-  body .secure_mobole_version {
-    margin-top: 280px !important;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+  body .box_icons {
+    display: none !important;
   }
-  body .left_box {
-    width: 100% !important;
+  body .mobile_icon {
+    display: block !important;
   }
+  body .left_box,
   body .right_box {
-    width: 100% !important;
+    padding: 15px !important;
+  }
+  body .left_box ul li p,
+  body .right_box ul li p {
+    font-size: 12px !important;
+  }
+  body .box_list_text li {
+    font-size: 16px !important;
+    padding-left: 10px !important;
   }
   body .footer_logo {
     display: none;
@@ -1055,6 +1174,9 @@ body footer .letcop_logo_sub {
     margin-top: 300px !important;
   }
   body .nav_logo {
+    display: none !important;
+  }
+  body footer {
     display: none !important;
   }
 }
@@ -1070,7 +1192,7 @@ body footer .letcop_logo_sub {
     display: none;
   }
   body .menu_burger {
-    left: 50px;
+    left: 50px !important;
   }
   body .nav_list_info {
     position: relative !important;
@@ -1097,7 +1219,7 @@ body footer .letcop_logo_sub {
     width: 50% !important;
   }
   body .start_new {
-    margin-bottom: 180px !important;
+    margin-bottom: 70px !important;
   }
   body .mobile_header_title {
     display: -webkit-box !important;
@@ -1131,12 +1253,21 @@ body footer .letcop_logo_sub {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin-top: 300px !important;
+  }
+  body .box_icons {
+    display: none !important;
+  }
+  body .mobile_icon {
+    display: block !important;
   }
   body .left_box,
   body .right_box {
-    padding: 45px 50px 45px 50px !important;
     width: 100% !important;
+    padding: 45px 50px 45px 50px !important;
+  }
+  body .box_list_text li {
+    font-size: 18px !important;
+    padding-left: 20px !important;
   }
   body .box_title_text {
     font-size: 20px !important;
@@ -1147,7 +1278,10 @@ body footer .letcop_logo_sub {
   body .footer_logo {
     display: none;
   }
-  body .copy {
+  body .header_bottom {
+    display: none !important;
+  }
+  body footer {
     display: none !important;
   }
 }
@@ -1168,7 +1302,7 @@ body footer .letcop_logo_sub {
   body .menu_burger {
     position: absolute;
     top: 25px !important;
-    left: 20px;
+    left: 20px !important;
   }
   body .change_bg {
     width: 70% !important;
@@ -1208,10 +1342,10 @@ body footer .letcop_logo_sub {
     width: 130px !important;
   }
   body .start_new {
-    margin-bottom: 210px !important;
     width: 120px !important;
     height: 25px !important;
     font-size: 11px !important;
+    margin-bottom: 0 !important;
   }
   body .header_title {
     margin-top: 90px !important;
@@ -1262,9 +1396,6 @@ body footer .letcop_logo_sub {
   body select option {
     font-size: 10px !important;
   }
-  body .header_bottom {
-    display: none !important;
-  }
   body .logotip_text .sup {
     font-size: 25px !important;
   }
@@ -1278,7 +1409,6 @@ body footer .letcop_logo_sub {
   body .left_box,
   body .right_box {
     padding: 20px !important;
-    width: 100% !important;
   }
   body .box_title_text {
     font-size: 20px !important;
@@ -1289,20 +1419,22 @@ body footer .letcop_logo_sub {
   body footer {
     margin-top: 300px !important;
   }
+  body .interesting_box {
+    display: none;
+  }
+  body .user_last_info_list .user_name span {
+    line-height: 20px;
+    padding-bottom: 10px;
+  }
 }
 
 @media only screen and (max-width: 467px) {
+  body header {
+    height: 100% !important;
+  }
   body .nav_item_mobile {
     margin-top: 30px !important;
     margin-left: -70px !important;
-  }
-  body .left_box,
-  body .right_box {
-    padding: 10px !important;
-    height: 100% !important;
-  }
-  body .secure_mobole_version {
-    margin-top: 300px !important;
   }
   body .box_title_text {
     font-size: 18px !important;
@@ -1341,6 +1473,197 @@ body footer .letcop_logo_sub {
   body .registration {
     width: 120px !important;
     margin-left: -60px !important;
+  }
+  body aside {
+    margin-top: -70px;
+  }
+  body .start_new {
+    margin-bottom: 10px !important;
+  }
+}
+
+@media screen and (max-width: 368px) {
+  body .left_box,
+  body .right_box {
+    width: 100% !important;
+    padding: 10px 0 0 0 !important;
+  }
+  body .box_list_text li {
+    font-size: 14px !important;
+    padding-left: 1px !important;
+  }
+}
+
+@media (min-width: 1160px) {
+  body {
+    font-size: 14px;
+  }
+  .social a i {
+    font-size: 25px;
+  }
+  .item__list {
+    font-size: 12px;
+  }
+  .container_ded {
+    width: 1160px;
+    padding: 0 20px;
+  }
+  .footer__item {
+    margin-right: 9%;
+  }
+}
+
+@media (max-width: 1100px) {
+  .social a i {
+    font-size: 18px;
+  }
+  .item__list {
+    font-size: 13px;
+  }
+  #investonse {
+    width: 150px;
+  }
+  #letcop_com {
+    width: 50px;
+  }
+  .footer__item {
+    margin-right: 4.5%;
+  }
+}
+
+@media (max-width: 1000px) {
+  #investonse_mob {
+    width: 160px;
+  }
+  body {
+    line-height: 1.5em;
+    font-size: 15px;
+  }
+  .container_ded {
+    width: 98%;
+  }
+  .disNon {
+    display: none;
+  }
+  .dis {
+    display: block;
+  }
+  .footer__item {
+    margin: 0;
+    margin-top: 7px;
+    padding: 10px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: #12114A;
+  }
+  .footer__item:first-child {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: #fff;
+    margin-bottom: 0;
+  }
+  .blocks_fr {
+    margin-top: 5px;
+    text-align: center;
+  }
+  .fr__item {
+    width: 100%;
+    color: #12114A;
+    font-weight: 600;
+  }
+  .fr__line {
+    margin: 5px 0;
+    border-bottom: 1px solid #12114A;
+  }
+  .logo__mob {
+    width: auto;
+  }
+  #aboutServiceBlock {
+    position: relative;
+  }
+  #chevronAbSv {
+    position: absolute;
+    top: 29%;
+    right: 10px;
+  }
+  #forUsersBlock {
+    position: relative;
+  }
+  #chevronForUsers {
+    position: absolute;
+    top: 29%;
+    right: 10px;
+  }
+  #hpBlock {
+    position: relative;
+  }
+  #chevronHp {
+    position: absolute;
+    top: 29%;
+    right: 10px;
+  }
+  #scBlock {
+    position: relative;
+  }
+  #chevronSc {
+    position: absolute;
+    top: 29%;
+    right: 10px;
+  }
+  .social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .social a {
+    margin-right: 60px;
+    color: #12114A;
+  }
+  .social a:last-child {
+    margin: 0;
+  }
+  .social a:hover {
+    color: #00CF4D;
+  }
+  .social a i {
+    font-size: 30px;
+  }
+  .copy {
+    line-height: 1.8em;
+    text-align: center;
+  }
+}
+
+@media (max-width: 770px) {
+  body {
+    font-size: 14px;
+  }
+  .footer__item {
+    margin-top: 5px;
+    padding: 8px 0;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 550px) {
+  .footer__item {
+    margin-top: 6px;
+    padding: 6px 0;
+    font-size: 14px;
   }
 }
 /*# sourceMappingURL=main.css.map */

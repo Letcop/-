@@ -360,6 +360,7 @@ button:focus {
       cursor: pointer;
       box-sizing: border-box;
       border: 1px solid $primary-color-text;
+      height: 220px;
     }
     .user_card:hover{
       border-color:  $primary-color;
@@ -383,7 +384,7 @@ button:focus {
     .user_name span {
       font-size: 20px;
       font-weight: 500;
-      line-height: 14px;
+      line-height: 17px;
     }
     .user_nickName span {
       font-size: 14px;
@@ -424,8 +425,9 @@ button:focus {
       margin-top: 10px;
     }
     .user_last_info_list .user_name span {
-      font-size: 16px;
+      font-size: 17px;
       font-weight: 500;
+      padding-top: 5px;
     }
     .user_projects span,
     .user_projects_last span {
@@ -568,13 +570,10 @@ button:focus {
     .left_box {
       @include background-img('../images/customer.jpg');
     }
-    .secure_payment_box {
-      height: 600px !important;
-    }
     .left_box, 
     .right_box {
       width: 50%;
-      height: 100%;
+      height: 600px;
       padding: 30px 50px 50px 100px;
     }
     .right_box {
@@ -684,6 +683,97 @@ button:focus {
       width: 35px;
       height: 35px;
     }
+    // mobile footer************
+
+    .dis {
+      display: none;
+  }
+  
+  .container_ded {
+      width: 88.99%;
+      margin: 10px auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+  }
+  
+  /* Footer */
+  
+  .footer {
+      background: url(img/footer.jpg) no-repeat;
+      background-size: cover;
+      color: #fff;
+      background-color: #12114A;
+  }
+  
+  .container_ded:last-child {
+      margin: 0 auto;
+  }
+  .social a i {
+      font-size: 20px;
+  }
+  
+  .footer__item {
+      margin: 20px 0;
+      margin-right: 5%;
+  }
+  .footer__item:last-child{
+      margin-right: 0;
+  }
+  
+  .footer__item:first-child a:hover {
+      text-decoration: none;
+      color: #fff;
+  }
+  
+  .letcop__com {
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      font-size: 165%;
+      font-weight: 700;
+  }
+  .letcop__com div{
+      height: 57px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      line-height: 20px;
+  }
+  .letcop__com div span{
+      font-family: 'Montserrat';
+  }
+  
+  #letcop_com {
+      width: 55px;
+      height: 57px;
+  }
+  
+  #investonse {
+      width: 163px;
+      height: 33px;
+      object-fit: cover;
+  }
+  
+  .olymp p{
+      font-size: 100%;
+      margin-top: 20px;
+  }
+  
+  .footer__item__head {
+      margin: 10px 0 20px;
+      font-weight: 600;
+  }
+  
+  .item__list {
+      line-height: 1.5em;
+      font-size: 14px;
+  }
+  
+  .soc-end a{
+      margin-right: 15px;
+  }
   }
  }
 
