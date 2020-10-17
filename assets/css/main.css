@@ -1526,11 +1526,21 @@ body footer .soc-end a {
   body .row_start_button {
     margin-top: 50px !important;
     margin-bottom: 50px !important;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
   }
   body .start_new {
     width: 150px !important;
     height: 25px !important;
     font-size: 11px !important;
+    margin-right: 20px !important;
   }
   body .header_title {
     margin-top: 90px !important;

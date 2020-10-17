@@ -381,9 +381,6 @@ body {
     .footer_logo {
       display: none;
     }
-    .copy {
-      // display: none !important;
-    }
     
     .header_bottom {
       display: none !important;
@@ -457,11 +454,15 @@ body {
     .row_start_button {
       margin-top: 50px !important;
       margin-bottom: 50px !important;
+      display: flex !important;
+      justify-content: center !important;
+      align-items: center !important;
     }
     .start_new {
       width: 150px !important;
       height: 25px !important;
       font-size: 11px !important;
+      margin-right: 20px !important;
     }
     .header_title {
       margin-top: 90px !important;
