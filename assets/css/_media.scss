@@ -21,7 +21,7 @@ body {
   }
   .left_box ,
   .right_box {
-    padding: 20px !important;
+    padding: 10px 5px !important;
   }
   
   .user_nickName span {
@@ -62,7 +62,7 @@ body {
       display: flex;
       flex-direction: column;
       align-items: start;
-      margin-left: 100px;
+      margin: 20px 100px;
     }
     .nav_item_mobile .nav_list {
       z-index: 2;
@@ -76,7 +76,14 @@ body {
     .nav_list a,
     .nav_list {
       font-size: 18px !important;
-      padding-bottom: 15px;
+      padding-bottom: 10px;
+    }
+    .nav_list {
+      padding-bottom: 10px !important;
+    }
+    .nav_list a:hover,
+    .nav_list:hover {
+      border: none !important;
     }
     
     .change_bg {
@@ -136,9 +143,6 @@ body {
     footer {
       margin-top: 300px !important;
     }
-    .nav_logo {
-      display: none !important;
-    }
     footer {
       display: none !important;
     }
@@ -166,11 +170,14 @@ body {
     }
     .nav_list {
       font-size: 18px !important;
-      padding-bottom: 10px;
+      padding-bottom: 15px !important;
       z-index: 999 !important;
       margin-left: 100px !important;
     }
-    
+    .nav_list a:hover,
+    .nav_list:hover {
+      border: none !important;
+    }
     .nav_list a {
       font-size: 16px !important;
     }

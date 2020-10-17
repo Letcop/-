@@ -139,6 +139,7 @@ button:focus {
     text-decoration: none;
     color: $primary-color-text;
     font-weight: 300;
+    transition: .3s ease-out;
   }
   .nav_signIn a:hover,
   .nav_list a:hover,
@@ -146,11 +147,9 @@ button:focus {
   .nav_last_info:hover {
     color: $primary-color;
   }
-  .nav_signIn a:hover,
   .nav_list:hover,
   .nav_last_info:hover  {
     border-bottom: 2px solid $primary-color;
-    transition: .3s ease-out;
   }
   .nav_language {
     margin-left: 30px;
@@ -587,16 +586,16 @@ button:focus {
     .box_icons {
       @include d-lex();
       flex-direction: column;
-      margin: 0;
     }
     .box_list {
       display: flex;
-      align-items: center;
+      align-items: flex-start;
       justify-content: center;
+      justify-content: center;
+      margin-top: 25px;
     }
     .box_list_text ul {
       padding-left: 15px; 
-      padding-top: 25px;
     }
     .box_list_text li {
       list-style: none;
@@ -607,7 +606,7 @@ button:focus {
       list-style: none;
       font-size: 14px;
       font-weight: 300;
-      padding-top: 10px;
+      padding-top: 5px;
     }
     .mobile_icon {
       display: none;

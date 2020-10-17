@@ -191,6 +191,8 @@ body header .nav_last_info {
   text-decoration: none;
   color: #ffffff;
   font-weight: 300;
+  -webkit-transition: .3s ease-out;
+  transition: .3s ease-out;
 }
 
 body header .nav_signIn a:hover,
@@ -200,12 +202,9 @@ body header .nav_last_info:hover {
   color: #00cf4d;
 }
 
-body header .nav_signIn a:hover,
 body header .nav_list:hover,
 body header .nav_last_info:hover {
   border-bottom: 2px solid #00cf4d;
-  -webkit-transition: .3s ease-out;
-  transition: .3s ease-out;
 }
 
 body header .nav_language {
@@ -799,24 +798,24 @@ body .secure_payment_last .box_icons {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 0;
 }
 
 body .secure_payment_last .box_list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  justify-content: center;
+  margin-top: 25px;
 }
 
 body .secure_payment_last .box_list_text ul {
   padding-left: 15px;
-  padding-top: 25px;
 }
 
 body .secure_payment_last .box_list_text li {
@@ -829,7 +828,7 @@ body .secure_payment_last .box_list_text li p {
   list-style: none;
   font-size: 14px;
   font-weight: 300;
-  padding-top: 10px;
+  padding-top: 5px;
 }
 
 body .secure_payment_last .mobile_icon {
@@ -1060,7 +1059,7 @@ body footer .soc-end a {
   }
   body .left_box,
   body .right_box {
-    padding: 20px !important;
+    padding: 10px 5px !important;
   }
   body .user_nickName span {
     font-size: 10px !important;
@@ -1100,7 +1099,7 @@ body footer .soc-end a {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: start;
-    margin-left: 100px;
+    margin: 20px 100px;
   }
   body .nav_item_mobile .nav_list {
     z-index: 2;
@@ -1114,7 +1113,14 @@ body footer .soc-end a {
   body .nav_list a,
   body .nav_list {
     font-size: 18px !important;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
+  }
+  body .nav_list {
+    padding-bottom: 10px !important;
+  }
+  body .nav_list a:hover,
+  body .nav_list:hover {
+    border: none !important;
   }
   body .change_bg {
     width: 40% !important;
@@ -1173,9 +1179,6 @@ body footer .soc-end a {
   body footer {
     margin-top: 300px !important;
   }
-  body .nav_logo {
-    display: none !important;
-  }
   body footer {
     display: none !important;
   }
@@ -1202,9 +1205,13 @@ body footer .soc-end a {
   }
   body .nav_list {
     font-size: 18px !important;
-    padding-bottom: 10px;
+    padding-bottom: 15px !important;
     z-index: 999 !important;
     margin-left: 100px !important;
+  }
+  body .nav_list a:hover,
+  body .nav_list:hover {
+    border: none !important;
   }
   body .nav_list a {
     font-size: 16px !important;
