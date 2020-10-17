@@ -309,8 +309,8 @@ button:focus {
     opacity: .9;
 
     .circle_green {
-      width: 50px;
-      height: 50px;
+      width: 60px;
+      height: 60px;
       border-radius: 50%;
       border: 2px solid $primary-color;
       display: flex;
@@ -330,9 +330,10 @@ button:focus {
       display: flex;
       flex-direction: column;
       width: 160px;
-      margin-left: 30px;
       opacity: 1;
       z-index: 1;
+      margin-top: 10px;
+      margin-left: 10px;
     }
     .circle_text span {
       font-size: 16px;

@@ -102,13 +102,28 @@ body {
       height: 90vh;
       transition: 0.5s;
     }
+    .header_bottom_list {
+      display: flex !important;
+      align-items: start !important;
+    }
+    
+    .circle_green {
+      width: 55px !important;
+      height: 40px !important;
+      font-size: 16px !important;
+      font-size: 22px !important;
+      margin-top: 5px !important;
+    }
+    .circle_text {
+      margin-left: 5px !important;
+    }
     .circle_text span {
-      font-size: 14px !important;
+      font-size: 12px !important;
     }
     .circle_text p {
       font-size: 10px !important;
-      line-height: 10px;
-      padding-top: 3px;
+      line-height: 9px !important;
+      padding: 0 !important;
     }
     .nav_language,
     .nav_signIn {
@@ -257,6 +272,10 @@ body {
     .left_box ul li p,
     .right_box ul li p {
       font-size: 12px !important;
+    }
+    
+    .box_title_text {
+      padding-top: 40px !important;
     }
 
     .box_list_text li {
@@ -441,11 +460,6 @@ body {
     .circle_text p {
       font-size: 9px !important;
       line-height: 6px;
-    }
-    .circle_green {
-      width: 40px !important;
-      height: 40px !important;
-      font-size: 16px !important;
     }
     .circle_text {
       margin-left: 5px !important;
