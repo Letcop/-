@@ -72,7 +72,7 @@ button:focus {
     @include background-img('../images/header.jpg');
     padding-top: 15px; 
     position: relative;
-    height: 100vh;
+    height: 100%;
   .navbar {
     display: flex;
     justify-content: center;

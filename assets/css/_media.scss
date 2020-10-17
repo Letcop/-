@@ -54,7 +54,7 @@ body {
   }
 }
 
-@media only screen and(min-width: 769px) and(max-width: 992px) {
+@media only screen and(min-width: 768px) and(max-width: 992px) {
   body {
     header {
       height: auto !important;
@@ -274,7 +274,7 @@ body {
     }
   }
 }
-@media only screen and(max-width: 768px) {
+@media only screen and(max-width: 767px) {
   body {
     header {
       height: 100% !important;
