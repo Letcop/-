@@ -15,6 +15,9 @@
 @media screen and (min-width: 993px) and (max-width: 1257px) {
 body {
   header {
+    height: auto !important;
+  }
+  
     .nav_signIn{
       font-size: 12px !important;
     }
@@ -28,7 +31,9 @@ body {
     font-size: 10px !important;
   }
   
-}
+  .start_new {
+    margin-bottom: 100px !important;
+  }
 }
 
 @media only screen and(min-width: 993px) {
@@ -51,6 +56,9 @@ body {
 
 @media only screen and(min-width: 769px) and(max-width: 992px) {
   body {
+    header {
+      height: auto !important;
+    }
     .desktop_nav_items {
       display: none;
     }
@@ -85,6 +93,9 @@ body {
     .nav_list:hover {
       border: none !important;
     }
+    .start_new {
+      margin-bottom: 100px !important;
+    }
     
     .change_bg {
       width: 40% !important;
@@ -106,8 +117,123 @@ body {
     .mobole_list {
       margin: 20px 0 !important;
     }
+    .user_card {
+      padding: 5px !important;
+    }
+    .user_img img {
+      width: 55px !important;
+      height: 55px !important;
+    }
+    .user_name  {
+      max-height: 65px !important;
+      margin-left: 5px !important;
+    }
+    .user_name span {
+      font-size: 17px !important;
+      width: 140px;
+      flex: 2;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .user_nickName {
+      display: flex;
+      align-items: start !important;
+      flex-direction: column;
+      text-align: start;
+    }
+    .user_nickName span {
+      font-size: 12px !important;
+    }
+    .user_activity span {
+      font-size: 12px !important;
+    }
+    .user_projects {
+      position: absolute;
+      bottom: 10px;
+      left: 20px;
+    }
+    .user_projects span {
+      font-size: 10px !important;
+      color: #000 !important;
+    }
+    .user_job {
+      display: none;
+    }
+    .user_satus {
+      display: flex;
+      align-items: center;
+    }
+    .user_job_mobile span {
+      font-size: 11px;
+      font-weight: 700 ;
+      color: #00CF4D;
+      padding-left: 10px;
+    }
+    .on_online,
+    .off_online {
+      width: 70px !important;
+      height: 15px !important;
+      font-size: 9px !important;
+      margin: 15px 0 !important;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .user_title_info_last {
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      flex-direction: column !important;
+    }
+    .user_img_last {
+      margin-top: 10px !important;
+      margin-left: 35px !important;
+    }
+    .user_last_info_list .user_name span {
+      width: 200px;
+      flex: 2;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      font-size: 15px !important;
+    }
+    .user_last_info_list .user_activity {
+      margin-top: 10px !important;
+    }
+    .user_projects_last {
+      width: 100% !important;
+      text-align: center;
+    }
     .user_img_last {
       margin-right: 40px !important;
+    }
+    .user_job span {
+      font-size: 13px !important;
+    }
+    .interesting_box img {
+      width: 40px !important;
+      height: 40px !important;
+    }
+    .interesting_box .sup {
+      font-size: 25px !important;
+    }
+    .interesting_box .sub {
+      font-size: 14px !important;
+    }
+    .logotip_text {
+      margin-left: 10px !important;
+    }
+    .aside_card_title span {
+      font-size: 12px !important;
+    }
+    .aside_card_title img {
+      width: 40px !important;
+      height: 40px !important;
+    }
+    .aside_card_list li {
+      font-size: 11.8px !important;
+      padding-top: 2px !important;
     }
     .aside_tablet_list {
       margin-bottom: 30px;
@@ -199,10 +325,15 @@ body {
       align-items: center !important;
       text-align: center !important;
     }
-    .mobole_list {
+    .main_mobile_list {
       margin: 20px 0 !important;
     }
-    
+    .user_job_mobile {
+      display: none !important;
+    }
+    .aside_card {
+      height: auto !important;
+    }
     .aside_mobole_list {
       margin-bottom: 20px !important;
     }
@@ -218,6 +349,12 @@ body {
     .secure_mobole_version {
       flex-direction: column;
     }
+    .interesting_box {
+      display: none;
+    }
+    .aside_first_list {
+      margin-top: 20px !important;
+    }
     .box_icons {
       display: none !important;
     }
@@ -227,6 +364,7 @@ body {
     .left_box,
     .right_box {
       width: 100% !important;
+      height: auto !important;
       padding: 45px 50px 45px 50px !important;
     }
     .box_list_text li {
@@ -261,7 +399,7 @@ body {
 @media only screen and(max-width: 567px) {
   body {
     header {
-      height: 100vh !important;
+      height: auto !important;
       .nav_signIn {
         margin-left: 90px;
         font-size: 14px !important;
@@ -275,7 +413,7 @@ body {
     .menu_burger {
       position: absolute;
       top: 25px !important;
-      left: 20px !important;
+      left: 35px !important;
     }
     
     .change_bg {
@@ -315,11 +453,15 @@ body {
     .circle_text {
       margin-left: 5px !important;
       width: 130px !important;
-    }.start_new {
-      width: 120px !important;
+    }
+    .row_start_button {
+      margin-top: 50px !important;
+      margin-bottom: 50px !important;
+    }
+    .start_new {
+      width: 150px !important;
       height: 25px !important;
       font-size: 11px !important;
-      margin-bottom: 0 !important;
     }
     .header_title {
       margin-top: 90px !important;
@@ -341,10 +483,6 @@ body {
       border-radius: 30px;
       margin-left: 0 !important;
       margin-top: 15px;
-    }
-    .start_new {
-      margin-top: -50px !important;
-      margin-bottom: 160px !important;
     }
     .header_link_text {
       font-size: 14px !important;
@@ -383,6 +521,7 @@ body {
     }
     .left_box,
     .right_box {
+      height: auto !important;
       padding: 20px !important;
     }
     
@@ -413,6 +552,10 @@ body {
     .nav_item_mobile {
       margin-top: 30px !important;
       margin-left: -70px !important;
+    }
+    .row_start_button {
+      
+     margin-right: 50px !important;
     }
     .box_title_text {
       font-size: 18px !important;
@@ -457,17 +600,15 @@ body {
     aside {
       margin-top: -70px;
     }
-    .start_new {
-      margin-bottom: 10px !important;
-    }
   }
 }
 @media screen and (max-width: 368px) {
   body {
     .left_box,
     .right_box {
+      height: auto !important;
       width: 100% !important;
-      padding: 10px 0 0 0 !important;
+      padding: 10px !important;
     }
     .box_list_text li {
       font-size: 14px !important;
