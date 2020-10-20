@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
 *, *:before, *:after {
   margin: 0;
   padding: 0;
@@ -84,6 +84,17 @@ body header {
   background-repeat: no-repeat;
   position: relative;
   height: 100%;
+}
+
+body header .head__media_modal,
+body header .hide__modal_block,
+body header .head__hide {
+  z-index: 999 !important;
+}
+
+body header .head__media_modal a,
+body header .close {
+  opacity: 1 !important;
 }
 
 body header .navbar {
@@ -381,17 +392,11 @@ body header .start_new {
   font-weight: 500;
   text-transform: uppercase;
   border-radius: 20px;
-  margin-bottom: 135px;
+  margin-bottom: 30px;
   margin-left: 30px;
 }
 
 body header .header_bottom {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  padding: 5px 0;
   background-color: #0f0e40;
   opacity: .9;
 }
@@ -900,7 +905,7 @@ body footer .footer_text ul li {
 body footer .footer_text ul li a {
   text-decoration: none;
   color: #ffffff;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 body footer .footer_text ul li a:hover {
