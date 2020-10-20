@@ -11,13 +11,11 @@
 }
 
 $primary-color: #00cf4d;
-// $primary-color-dark: ;
 $pr-color: #100f41;
 $primary-color-light: #7fe7a6;
 $primary-color-text: #ffffff;
 $accent-color: #253556; 
 $accent-color-light: #12114a;
-// $secondary-text-color: ;
 $divider-color-light: #f8f8fa;
 $divider-color: #efefef;
 $divider-color-text: #c1c4ca;
@@ -71,7 +69,7 @@ button:focus {
   header {
     @include background-img('../images/header.jpg');
     position: relative;
-    height: 100%;
+    height: 100vh;
 
     .head__media_modal,
     .hide__modal_block,
@@ -305,10 +303,16 @@ button:focus {
     font-weight: 500;
     text-transform: uppercase;
     border-radius: 20px;
-    margin-bottom: 25px;
+    margin-bottom: 24px;
     margin-left: 30px;
   }
   .header_bottom {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 999;
     background-color: #0f0e40;
     opacity: .9;
 
