@@ -485,7 +485,7 @@ body main .user_card {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border: 1px solid #ffffff;
-  height: 220px;
+  height: 230px;
 }
 
 body main .user_card:hover {
