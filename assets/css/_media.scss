@@ -18,18 +18,14 @@
     body {
       header {
         height: auto !important;
-        .start_new {
-          margin-bottom: 250px !important;
-        }
       }
     }
   }
   @media screen and (min-width: 1258px) {
     body {
       header {
-        height: auto !important;
         .start_new {
-          margin-bottom: 100px !important;
+          margin-bottom: 120px !important;
         }
       }
     }
