@@ -32,7 +32,7 @@ body {
   }
   
   .start_new {
-    margin-bottom: 100px !important;
+    margin-bottom: 20px !important;
   }
 }
 
@@ -50,6 +50,9 @@ body {
     }
     .footer__mob {
       display: none;
+    }
+    .user_job_mobile {
+      display: none !important;
     }
   }
 }
@@ -94,7 +97,7 @@ body {
       border: none !important;
     }
     .start_new {
-      margin-bottom: 100px !important;
+      margin-bottom: 10px !important;
     }
     
     .change_bg {
