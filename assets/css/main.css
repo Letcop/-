@@ -461,6 +461,7 @@ body header .header_bottom .circle_text {
 body header .header_bottom .circle_text span {
   font-size: 16px;
   font-weight: 500;
+  opacity: 1;
 }
 
 body header .header_bottom .circle_text p {
@@ -468,6 +469,7 @@ body header .header_bottom .circle_text p {
   line-height: 15px;
   padding-top: 5px;
   font-weight: 300;
+  opacity: 1;
 }
 
 body main {
@@ -639,7 +641,8 @@ body .interesting_box .logotip_text {
   margin-left: 30px;
 }
 
-body .interesting_box .logotip_text .sup {
+body .interesting_box .logotip_text .sup,
+body .interesting_box .logotip_text .prosent {
   font-size: 33px;
   font-weight: 700;
   color: #ffffff;
@@ -1080,7 +1083,7 @@ body footer .soc-end a {
 
 @media screen and (min-width: 1258px) {
   body header .start_new {
-    margin-bottom: 120px !important;
+    margin-bottom: 100px !important;
   }
 }
 
