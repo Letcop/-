@@ -69,8 +69,10 @@ nav a:hover,
 .head__right,
 .head__left{
     display: flex;
-
     align-items: center;
+}
+.nav_left {
+    margin-right: 200px;
 }
 .head__right .head__bottom{
     margin-right: 40px;
@@ -469,9 +471,9 @@ nav a:hover,
   background-color: transparent;
 }
 .head__singIn{
-    padding: 15px 0;
     display: none;
-    margin-left: auto;
+    margin-top: 20px;
+    margin-left: 50px;
 }
 .head__singIn i{
     margin-right: 13px;

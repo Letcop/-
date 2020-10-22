@@ -53,6 +53,45 @@ body {
   .start_new {
     margin-bottom: 100px !important;
   }
+  .platform_img {
+    width: 30%;
+  }
+  .last_news .new_card_sub,
+  .last_news .new_card_title {
+    display: flex;
+    justify-content: start !important;
+    align-items: start !important;
+    flex-direction: column !important;
+    line-height: 45px;
+    margin-top: -20px !important;
+  }
+ .last_news .card_1_sub {
+  display: flex;
+  justify-content: start !important;
+  align-items: start !important;
+  flex-direction: column !important;
+  }
+  .new_card_1 {
+    margin-top: 20px !important;
+  }
+  .card_date {
+    margin-top: -30px !important;
+  }
+  .new_card_1 .new_card_list {
+    margin-top: 40px !important;
+  }
+  .card_1_sub {
+    flex-direction: column !important;
+  }
+  .card_1_sub .card_button {
+    margin-top: 20px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .new_card_1 .card_date span  {
+    color: #fff !important;
+  }
 }
 
 @media only screen and(min-width: 993px) {
@@ -316,6 +355,30 @@ body {
     footer {
       display: none !important;
     }
+    .platform_img {
+      opacity: .3;
+    }
+    .last_news {
+      .new_card_1 .new_card_list {
+        margin-top: 170px !important;
+      }
+      .new_card_3 {
+        margin-top: 30px !important;
+      }
+      .new_card_4 {
+        margin-top: 30px !important;
+      }
+      .new_card_6 {
+        margin-top: 30px !important;
+        padding-top: 135px !important;
+      }
+    }
+    .benefits_tablet {
+      margin-top: 20px;
+    }
+    .new_card_list {
+      padding: 20px 10px !important;
+    }
   }
 }
 @media only screen and(max-width: 767px) {
@@ -432,6 +495,21 @@ body {
     
     footer {
       display: none !important;
+    }
+    .platform_img {
+      opacity: .3;
+    }
+    .benefits_mobile {
+      margin-bottom: 20px;
+    }
+    .our_skill .customers {
+      margin-bottom: 40px;
+    }
+    .last_news .last_news_mobile {
+      margin-bottom: 30px;
+    }
+    .updates_list .updates_btn {
+      margin-top: 20px;
     }
   }
 }
@@ -581,6 +659,18 @@ body {
       line-height: 20px;
       padding-bottom: 10px;
     }
+    .platform_img {
+      display: none;
+    }
+    .platform_text  {
+      width: auto !important;
+    }
+    .platform {
+      padding: 5px 10px !important;
+    }
+    .updates_mobile {
+      margin-bottom: 15px;
+    }
   }
 }
 
@@ -633,12 +723,15 @@ body {
       font-size: 16.5px !important;
       font-weight: 700 !important;
     }
-    .registration {
+    .registration { 
       width: 120px !important;
       margin-left: -60px !important;
     }
     aside {
       margin-top: -70px;
+    }
+    .our_skill .performers {
+      margin-bottom: 40px !important;
     }
   }
 }
@@ -653,6 +746,9 @@ body {
     .box_list_text li {
       font-size: 14px !important;
       padding-left: 1px !important;
+    }
+    .new_card_list {
+      padding: 20px 5px !important;
     }
   }
 }
