@@ -7,6 +7,7 @@
   <title>Letcop</title>
   <link rel="shortcut icon" href="assets/icons/logo.svg" type="image/x-icon">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
   <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
   <link rel="stylesheet" href="assets/css/main.css">
@@ -436,11 +437,9 @@
             Одна из первых фриланс-бирж в Средней Азии
           </span>
         </div>
-        <div class="col-12 header_form">
-          <form action="#">
-            <input type="text" placeholder="Что нужно сделать?" required>
-            <button type="submit">Заказать</button>
-          </form>
+        <div class="col-12 header_buttons">
+          <button class="btn_left">Хочу нанять</button>
+          <button class="btn_right">Хочу работать </button>
         </div>
         <div class="col-12 header_link">
           <span class="header_link_text">Например: <a href="#">создать сайт</a> или <a href="#">написать продающий
@@ -960,7 +959,7 @@
         </div>
       </div>
       <div class="row d-flex justify-content-center">
-        <div class="col-lg-4 col-md-6 benefits_mobile d-flex align-items-center">
+        <div class="col-lg-4 col-md-10 benefits_mobile d-flex align-items-center">
           <img src="assets/icons/benefits1.png" alt="">
           <div class="benefits_text">
             <span>Лёгкий старт для новичков.
@@ -969,7 +968,7 @@
             </span>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 benefits_mobile d-flex align-items-center">
+        <div class="col-lg-4 col-md-10 benefits_tablet benefits_mobile d-flex align-items-center">
           <img src="assets/icons/benefits2.png" alt="">
           <div class="benefits_text">
             <span>Возможность создавать команды.
@@ -978,7 +977,7 @@
             </span>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 benefits_tablet d-flex align-items-center">
+        <div class="col-lg-4 col-md-10 benefits_tablet d-flex align-items-center">
           <img src="assets/icons/benefits3.png" alt="">
           <div class="benefits_text">
             <span>5% — низкая комиссия на рынке фриланса! Продуманная система рейтинга и достижений.
@@ -1012,9 +1011,9 @@
             </div>
             <div class="new_card_list">
               <strong>Дизайн</strong>
-              <p>Онлайн-переводы через сайт без
-                открытия счета и регистрации
-                юр. лица</p>
+              <p><a href="#">Онлайн-переводы через сайт без
+                  открытия счета и регистрации
+                  юр. лица</a></p>
               <span>Пока почти вся торговля вынужденно переходит в онлайн, мы приготовили для вас хорошую новость: в
                 модуле «Интернет-магазин» появился новый способ получения денежных переводов ...</span>
               <div class="card_1_sub mt-3">
@@ -1033,8 +1032,8 @@
         <div class="col-lg-4 col-md-6 col-sm-10 col-12 last_news_mobile">
           <div class="new_card_2 w-100">
             <div class="new_card_list">
-              <p class="text-center pt-3">Готовимся к Новому году с
-                новыми шаблонами !</p>
+              <p class="text-center pt-3"><a href="#">Готовимся к Новому году с
+                  новыми шаблонами !</a></p>
               <div class="new_card_sub mt-5">
                 <div class="comments">
                   <i class="fas fa-comment-alt"></i>
@@ -1052,8 +1051,8 @@
         <div class="col-lg-4 col-md-6 col-sm-10 col-12 last_news_mobile">
           <div class="new_card_3 w-100">
             <div class="new_card_list">
-              <p class="text-center pt-3">Нам 14 лет! Скидка 50% <br>
-                для всех!</p>
+              <p class="text-center pt-3"><a href="#">Нам 14 лет! Скидка 50% <br>
+                  для всех!</a></p>
               <div class="new_card_sub mt-5">
                 <div class="comments">
                   <i class="fas fa-comment-alt"></i>
@@ -1071,8 +1070,8 @@
         <div class="col-lg-4 col-md-6 col-sm-10 col-12">
           <div class="new_card_4 w-100">
             <div class="new_card_list">
-              <p class="text-center pt-3">Где брать изображения <br>
-                для сайта?</p>
+              <p class="text-center pt-3"><a href="#">Где брать изображения <br>
+                  для сайта?</a></p>
               <div class="new_card_sub mt-5">
                 <div class="comments">
                   <i class="fas fa-comment-alt"></i>
@@ -1090,7 +1089,8 @@
         <div class="col-lg-4 col-md-6 col-sm-10 col-12 last_news_mobile" style="margin-top: 30px;">
           <div class="new_card_5 w-100">
             <div class="new_card_list">
-              <p class="text-center pt-3">Промокод Яндекс.Директ на <br> 4500 рублей для пользователей</p>
+              <p class="text-center pt-3"><a href="#">Промокод Яндекс.Директ на <br> 4500 рублей для пользователей</a>
+              </p>
               <div class="new_card_sub mt-5">
                 <div class="comments">
                   <i class="fas fa-comment-alt"></i>
@@ -1108,7 +1108,7 @@
         <div class="col-lg-4 col-md-6 col-sm-10 col-12">
           <div class="new_card_6 w-100">
             <div class="new_card_list">
-              <p class="text-center pt-3">Подборка сервисов для <br> создания email-рассылок</p>
+              <p class="text-center pt-3"><a href="#">Подборка сервисов для <br> создания email-рассылок</a></p>
               <div class="new_card_sub mt-5">
                 <div class="comments">
                   <i class="fas fa-comment-alt"></i>
@@ -1262,13 +1262,21 @@
 
   </div>
 
-
+  <!-- jQuery library -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
   <script src="assets/js/basic_header.js"></script>
   <script src="assets/js/footer.js"></script>
   <script src="assets/js/counter.js"></script>
+  <script src="assets/js/jquery.countup.min.js"></script>
+  <script src="assets/js/jquery.waypoints.min.js"></script>
 </body>
 
 </html>

@@ -379,6 +379,9 @@ body {
     .new_card_list {
       padding: 20px 10px !important;
     }
+    .performers button {
+      margin-top: 22px;
+    }
   }
 }
 @media only screen and(max-width: 767px) {
@@ -671,6 +674,9 @@ body {
     .updates_mobile {
       margin-bottom: 15px;
     }
+    .updates_list input {
+      margin-left: 0 !important;
+    }
   }
 }
 
@@ -732,6 +738,10 @@ body {
     }
     .our_skill .performers {
       margin-bottom: 40px !important;
+    }
+    .header_buttons .btn_right {
+      margin-left: 0 !important;
+      margin-top: 20px !important;
     }
   }
 }

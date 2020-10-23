@@ -162,6 +162,25 @@ body header form input::placeholder {
   font-weight: 300;
 }
 
+body header .header_buttons {
+  margin: 25px 0;
+}
+
+body header .header_buttons button {
+  width: 220px;
+  height: 45px;
+  border-radius: 30px;
+  font-size: 12px;
+  color: #12114a;
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: #00cf4d;
+}
+
+body header .header_buttons .btn_right {
+  margin-left: 20px;
+}
+
 body header .header_link_text {
   font-weight: 300;
   color: #ffffff;
@@ -989,9 +1008,17 @@ body .last_news .new_card_list p {
   padding-top: 5px;
   font-size: 14px;
   line-height: 20px;
-  color: #12114a;
   font-weight: 600;
   text-transform: uppercase;
+}
+
+body .last_news .new_card_list p a {
+  text-decoration: none;
+  color: #12114a;
+}
+
+body .last_news .new_card_list p a:hover {
+  border-bottom: 1px solid #00cf4d;
 }
 
 body .last_news .new_card_list span {
@@ -1112,12 +1139,12 @@ body .updates .updates_list .updates_btn {
   color: #ffffff;
   font-weight: 500;
   border: 1px solid #ffffff;
-  padding-left: 10px;
+  padding-left: 0;
 }
 
 body .updates .updates_list .updates_btn:hover {
-  -webkit-box-shadow: 0px 0px 13px 2px #ffffff;
-  box-shadow: 0px 0px 13px 2px #ffffff;
+  background-color: #ffffff;
+  color: #00cf4d;
 }
 
 @media screen and (min-width: 2400px) {
@@ -1548,6 +1575,9 @@ body .updates .updates_list .updates_btn:hover {
   body .new_card_list {
     padding: 20px 10px !important;
   }
+  body .performers button {
+    margin-top: 22px;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -1844,6 +1874,9 @@ body .updates .updates_list .updates_btn:hover {
   body .updates_mobile {
     margin-bottom: 15px;
   }
+  body .updates_list input {
+    margin-left: 0 !important;
+  }
 }
 
 @media only screen and (max-width: 467px) {
@@ -1900,6 +1933,10 @@ body .updates .updates_list .updates_btn:hover {
   }
   body .our_skill .performers {
     margin-bottom: 40px !important;
+  }
+  body .header_buttons .btn_right {
+    margin-left: 0 !important;
+    margin-top: 20px !important;
   }
 }
 
