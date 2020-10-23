@@ -967,13 +967,27 @@ body .last_news {
   padding: 35px 0;
 }
 
+body .last_news .new_card {
+  width: 100%;
+  position: relative;
+  border-radius: 10px;
+}
+
 body .last_news .new_card_1 {
   background-image: url("../images/last_new1.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-repeat: no-repeat;
-  border-radius: 10px;
+  height: 420px;
+}
+
+body .last_news .new_card_sup_date {
+  display: none;
+}
+
+body .last_news .new_card_title_hide {
+  display: block;
 }
 
 body .last_news .new_card_title i {
@@ -992,6 +1006,10 @@ body .last_news .new_card_title span {
 }
 
 body .last_news .new_card_list {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
   margin-top: 145px;
   background-color: #ffffff;
   opacity: .9;
@@ -1001,6 +1019,8 @@ body .last_news .new_card_list {
 }
 
 body .last_news .new_card_list strong {
+  font-size: 18px;
+  font-weight: 600;
   color: #00cf4d;
 }
 
@@ -1010,15 +1030,6 @@ body .last_news .new_card_list p {
   line-height: 20px;
   font-weight: 600;
   text-transform: uppercase;
-}
-
-body .last_news .new_card_list p a {
-  text-decoration: none;
-  color: #12114a;
-}
-
-body .last_news .new_card_list p a:hover {
-  border-bottom: 1px solid #00cf4d;
 }
 
 body .last_news .new_card_list span {
@@ -1063,8 +1074,7 @@ body .last_news .new_card_2 {
   background-repeat: no-repeat;
   -o-object-fit: cover;
      object-fit: cover;
-  border-radius: 10px;
-  padding-top: 190px;
+  height: 480px;
 }
 
 body .last_news .new_card_3 {
@@ -1072,8 +1082,7 @@ body .last_news .new_card_3 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  border-radius: 10px;
-  padding-top: 165px;
+  height: 420px;
 }
 
 body .last_news .new_card_4 {
@@ -1081,8 +1090,8 @@ body .last_news .new_card_4 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  border-radius: 10px;
-  padding-top: 165px;
+  height: 480px;
+  margin-top: -30px;
 }
 
 body .last_news .new_card_5 {
@@ -1090,8 +1099,7 @@ body .last_news .new_card_5 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  border-radius: 10px;
-  padding-top: 138px;
+  height: 420px;
 }
 
 body .last_news .new_card_6 {
@@ -1099,8 +1107,20 @@ body .last_news .new_card_6 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  border-radius: 10px;
-  padding-top: 170px;
+  height: 480px;
+  margin-top: -30px;
+}
+
+body .last_news .new_card_info {
+  display: none;
+}
+
+body .last_news .hide_card_info {
+  display: block;
+}
+
+body .last_news .card_date_show {
+  display: none;
 }
 
 body .updates {
