@@ -738,6 +738,16 @@ font-weight: 600;
       position: relative;
       border-radius: 10px;
     }
+    .bgc_back {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #0009;
+      border-radius: 10px;
+    }
     .new_card_1 {
       @include background-img('../images/last_new1.png');
       background-repeat: no-repeat;
@@ -749,13 +759,20 @@ font-weight: 600;
     .new_card_title_hide {
       display: block;
     }
+    .new_card_title {
+      position: absolute;
+      top: 5px;
+      left: 5px;
+      z-index: 1;
+      width: 100%;
+    }
       .new_card_title i{
         color: $primary-color-text;
         padding-left: 20px;
         padding-top: 20px;
       }
       .new_card_title span{
-        color: $divider-color-text;
+        color: $primary-color-text;
         padding-left: 10px;
         font-size: 13px;
         font-weight: 300;
