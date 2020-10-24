@@ -101,6 +101,10 @@ body header .header_title {
   margin-top: 120px;
 }
 
+body header .basic_header_title {
+  margin-top: 100px;
+}
+
 body header .header_title_text {
   font-size: 37px;
   color: #ffffff;
@@ -969,7 +973,7 @@ body .last_news {
 
 body .last_news .new_card {
   width: 100%;
-  position: relative;
+  position: relative !important;
   border-radius: 10px;
 }
 
@@ -989,19 +993,20 @@ body .last_news .new_card_1 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-repeat: no-repeat;
-  height: 420px;
+  height: 420px !important;
+  position: relative !important;
 }
 
 body .last_news .new_card_sup_date {
   display: none;
 }
 
-body .last_news .new_card_title_hide {
+body .last_news .new_card_hide {
   display: block;
 }
 
 body .last_news .new_card_title {
+  display: none;
   position: absolute;
   top: 5px;
   left: 5px;
@@ -1025,22 +1030,25 @@ body .last_news .new_card_title span {
 }
 
 body .last_news .new_card_list {
-  position: absolute;
+  position: absolute !important;
   left: 0;
   right: 0;
   bottom: 0;
-  margin-top: 145px;
   background-color: #ffffff;
   opacity: .9;
   padding: 20px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  z-index: 999;
 }
 
 body .last_news .new_card_list strong {
   font-size: 18px;
   font-weight: 600;
   color: #00cf4d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 body .last_news .new_card_list p {
@@ -1093,7 +1101,8 @@ body .last_news .new_card_2 {
   background-repeat: no-repeat;
   -o-object-fit: cover;
      object-fit: cover;
-  height: 480px;
+  height: 480px !important;
+  width: 300px;
 }
 
 body .last_news .new_card_3 {
@@ -1109,7 +1118,7 @@ body .last_news .new_card_4 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 480px;
+  height: 480px !important;
   margin-top: -30px;
 }
 
@@ -1126,7 +1135,7 @@ body .last_news .new_card_6 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 480px;
+  height: 480px !important;
   margin-top: -30px;
 }
 
@@ -1220,21 +1229,21 @@ body .updates .updates_list .updates_btn:hover {
   body .nav_signIn {
     font-size: 12px !important;
   }
-  .left_box,
-  .right_box {
+  body .left_box,
+  body .right_box {
     padding: 10px 5px !important;
   }
-  .user_nickName span {
+  body .user_nickName span {
     font-size: 10px !important;
   }
-  .start_new {
+  body .start_new {
     margin-bottom: 100px !important;
   }
-  .platform_img {
+  body .platform_img {
     width: 30%;
   }
-  .last_news .new_card_sub,
-  .last_news .new_card_title {
+  body .last_news .new_card_sub,
+  body .last_news .new_card_title {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1251,7 +1260,7 @@ body .updates .updates_list .updates_btn:hover {
     line-height: 45px;
     margin-top: -20px !important;
   }
-  .last_news .card_1_sub {
+  body .last_news .card_1_sub {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1266,22 +1275,22 @@ body .updates .updates_list .updates_btn:hover {
         -ms-flex-direction: column !important;
             flex-direction: column !important;
   }
-  .new_card_1 {
+  body .new_card_1 {
     margin-top: 20px !important;
   }
-  .card_date {
+  body .card_date {
     margin-top: -30px !important;
   }
-  .new_card_1 .new_card_list {
+  body .new_card_1 .new_card_list {
     margin-top: 40px !important;
   }
-  .card_1_sub {
+  body .card_1_sub {
     -webkit-box-orient: vertical !important;
     -webkit-box-direction: normal !important;
         -ms-flex-direction: column !important;
             flex-direction: column !important;
   }
-  .card_1_sub .card_button {
+  body .card_1_sub .card_button {
     margin-top: 20px !important;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1293,8 +1302,11 @@ body .updates .updates_list .updates_btn:hover {
         -ms-flex-align: center;
             align-items: center;
   }
-  .new_card_1 .card_date span {
+  body .new_card_1 .card_date span {
     color: #fff !important;
+  }
+  body .hide_page_tablet {
+    display: none !important;
   }
 }
 
@@ -1620,6 +1632,26 @@ body .updates .updates_list .updates_btn:hover {
   body .head_logo_tablet {
     margin-right: 150px !important;
   }
+  body .hide_page_tablet {
+    display: none !important;
+  }
+  body .head__media_modal {
+    width: 300px;
+    height: 50vh !important;
+    position: absolute !important;
+  }
+  body .head_mobile_page_sub {
+    display: none !important;
+  }
+  body .mobile_modal_head_page {
+    display: none !important;
+  }
+  body .new_card {
+    max-height: 420px !important;
+  }
+  body .head_mobile_page_item {
+    display: none !important;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -1756,6 +1788,27 @@ body .updates .updates_list .updates_btn:hover {
   }
   body .updates_list .updates_btn {
     margin-top: 20px;
+  }
+  body .hide_page_tablet {
+    display: none !important;
+  }
+  body .head__media_modal {
+    height: 94vh !important;
+  }
+  body .head_user_page {
+    display: none !important;
+  }
+  body .head_mobile_page {
+    display: none !important;
+  }
+  body .head_mobile_page_sub {
+    margin-top: 50px !important;
+  }
+  body .head_mobile_page_sub .head__singIn {
+    margin-left: 130px !important;
+  }
+  body .new_card {
+    max-height: 420px !important;
   }
 }
 
@@ -1919,6 +1972,12 @@ body .updates .updates_list .updates_btn:hover {
   body .updates_list input {
     margin-left: 0 !important;
   }
+  body .head_mobile_page {
+    display: none !important;
+  }
+  body .head__singIn {
+    display: block !important;
+  }
 }
 
 @media only screen and (max-width: 467px) {
@@ -1980,6 +2039,10 @@ body .updates .updates_list .updates_btn:hover {
     margin-left: 0 !important;
     margin-top: 20px !important;
   }
+  body .new_card_3,
+  body .new_card_5 {
+    margin-bottom: 30px !important;
+  }
 }
 
 @media screen and (max-width: 368px) {
@@ -1995,6 +2058,9 @@ body .updates .updates_list .updates_btn:hover {
   }
   body .new_card_list {
     padding: 20px 5px !important;
+  }
+  body .mobile__modal .head_mobile_page {
+    display: none !important;
   }
 }
 

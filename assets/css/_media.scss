@@ -40,7 +40,6 @@ body {
     .nav_signIn{
       font-size: 12px !important;
     }
-  }
   .left_box ,
   .right_box {
     padding: 10px 5px !important;
@@ -92,6 +91,10 @@ body {
   .new_card_1 .card_date span  {
     color: #fff !important;
   }
+  .hide_page_tablet {
+    display: none !important;
+  }
+}
 }
 
 @media only screen and(min-width: 993px) {
@@ -385,7 +388,27 @@ body {
     .head_logo_tablet {
       margin-right: 150px !important;
     }
+    .hide_page_tablet {
+      display: none !important;
+    }
+    .head__media_modal{
+      width: 300px;
+      height: 50vh !important;
+      position: absolute !important;
   }
+  .head_mobile_page_sub {
+    display: none !important; 
+  }
+  .mobile_modal_head_page {
+    display: none !important;
+  }
+  .new_card{
+   max-height: 420px !important;
+  }
+  .head_mobile_page_item {
+    display: none !important;
+  }
+}
 }
 @media only screen and(max-width: 767px) {
   body {
@@ -517,6 +540,28 @@ body {
     .updates_list .updates_btn {
       margin-top: 20px;
     }
+    .hide_page_tablet {
+      display: none !important;
+    }
+    .head__media_modal{ 
+      height: 94vh !important;
+    }
+    .head_user_page {
+      display: none !important;
+    }
+    .head_mobile_page {
+      display: none !important;
+    }
+    .head_mobile_page_sub {
+      margin-top: 50px !important;
+    }
+    .head_mobile_page_sub .head__singIn {
+      margin-left: 130px !important;
+    }
+    
+  .new_card{
+    max-height: 420px !important;
+   }
   }
 }
 
@@ -680,6 +725,12 @@ body {
     .updates_list input {
       margin-left: 0 !important;
     }
+    .head_mobile_page {
+      display: none !important;
+    }
+    .head__singIn {
+      display: block !important;
+    }
   }
 }
 
@@ -746,6 +797,10 @@ body {
       margin-left: 0 !important;
       margin-top: 20px !important;
     }
+    .new_card_3,
+    .new_card_5 {
+      margin-bottom: 30px !important;
+    }
   }
 }
 @media screen and (max-width: 368px) {
@@ -762,6 +817,9 @@ body {
     }
     .new_card_list {
       padding: 20px 5px !important;
+    }
+    .mobile__modal .head_mobile_page {
+      display: none !important;
     }
   }
 }
