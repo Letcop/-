@@ -17,15 +17,15 @@
 <body>
   <!-- start header page -->
   <header>
-    <div class="conteiner my_navbar basic_navbar">
+    <div class="conteiner my_navbar">
       <div class="head__main_block">
         <div class="head__burger">
           <div class="burger__iteam"></div>
         </div>
-        <img class="media__logo" src="assets/icons/icon.svg">
+        <img class="media__logo" src="assets/icons/logo.svg">
 
-        <div class="head__left nav_left">
-          <img class="head__logo head_logo_tablet" src="assets/icons/icon.svg">
+        <div class="head__left">
+          <img class="head__logo" src="assets/icons/logo.svg">
           <nav>
             <a href="#/">Заказы</a>
             <a href="#/">Вакансии</a>
@@ -173,11 +173,11 @@
               <a href="#/">UZ</a>
             </div>
           </div>
-          <a href="./basic.html" class="head__singIn">
+          <a href="#/" class="head__singIn head__singIn_title">
             <i class="fal fa-sign-in"></i>
             <p>Войти</p>
           </a>
-          <div class="head__profile ">
+          <div class="head__profile">
             <div class="head__foto">
               <img src="assets/icons/avatar.png">
             </div>
@@ -287,8 +287,8 @@
         </div>
         <i class="fas fa-times-circle close"></i>
       </div>
-      <div class="mobile__modal head_mobile_page_item">
-        <div class="head__profile head_mobile_page">
+      <div class="mobile__modal">
+        <div class="head__profile">
           <div class="head__foto">
             <img src="assets/icons/avatar.png">
           </div>
@@ -303,11 +303,13 @@
             </div>
           </div>
         </div>
-        <div class="media__hide_box head_mobile_page_sub">
-          <a href="./basic.html" class="head__singIn">
+        <div class="mobile__singIn">
+          <a href="#/" class="head__singIn">
             <i class="fal fa-sign-in"></i>
             <p>Войти</p>
           </a>
+        </div>
+        <div class="media__hide_box media__hide_box_tablet">
           <div class="media__hide_button">
             <a href="#/">Меню</a>
             <i class="fal fa-chevron-down down__icon"></i>
@@ -344,12 +346,12 @@
             <a href="#/">Творческая мастерская</a>
           </div>
         </div>
-        <div class="change__lang">
+        <div class="change__lang media__hide_box_tablet">
           <p class="change__title">Язык</p>
           <p class="active__lang">RU</p>
           <p>UZ</p>
         </div>
-        <div class="head__hide_bottom">
+        <div class="head__hide_bottom media__hide_box_tablet">
           <a class="head__support" href="#/">
             <span>Поддержка</span>
             <i class="fas fa-headset"></i>
@@ -496,6 +498,7 @@
       </div>
     </div>
   </header>
+  <div class="head__overlay"></div>
   <!-- End header ****************** -->
 
 
@@ -1441,7 +1444,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <script src="assets/js/jquery.countup.min.js"></script>
   <script src="assets/js/jquery.waypoints.min.js"></script>
-  <script src="assets/js/basic_header.js"></script>
+  <script src="assets/js/header.js"></script>
   <script src="assets/js/footer.js"></script>
   <script src="assets/js/counter.js"></script>
   <script src="assets/js/mouseCard.js"></script>

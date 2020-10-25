@@ -97,6 +97,11 @@ body header .close {
   opacity: 1 !important;
 }
 
+body header .head__singIn_title {
+  margin-top: 20px;
+  margin-right: 50px;
+}
+
 body header .header_title {
   margin-top: 120px;
 }
@@ -1308,6 +1313,27 @@ body .updates .updates_list .updates_btn:hover {
   body .hide_page_tablet {
     display: none !important;
   }
+  body .head__media_modal {
+    width: 300px;
+    height: 40vh !important;
+    position: absolute !important;
+  }
+  body .head_mobile_page_sub {
+    display: none !important;
+  }
+  body .media__hide_box_tablet {
+    display: none !important;
+  }
+  body .new_card {
+    max-height: 420px !important;
+  }
+  body .head_mobile_page_item {
+    display: none !important;
+  }
+  body .new_card_4,
+  body .new_card_6 {
+    margin-top: 30px !important;
+  }
 }
 
 @media only screen and (min-width: 993px) {
@@ -1650,6 +1676,9 @@ body .updates .updates_list .updates_btn:hover {
     max-height: 420px !important;
   }
   body .head_mobile_page_item {
+    display: none !important;
+  }
+  body .media__hide_box_tablet {
     display: none !important;
   }
 }
