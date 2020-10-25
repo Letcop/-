@@ -45,7 +45,6 @@ nav
 }
 .active .hide__link{
     top: 28px;
-    /*display: block;*/
     opacity: 1;
     visibility: visible;
 }
@@ -533,6 +532,8 @@ nav a:hover,
     display: none;
     margin-left: auto;
     text-decoration: none;
+    margin-right: 50px;
+    margin-top: 20px;
 }
 .head__singIn i{
     margin-right: 13px;
@@ -627,6 +628,7 @@ nav a:hover,
     }
     .head__main_block{
         justify-content: flex-start;
+        max-height: 100px;
     }
     .head__media_modal{
         width: 300px;
@@ -640,7 +642,7 @@ nav a:hover,
         visibility: hidden;
         transition: 0.4s;
         display: block;
-        z-index: 9999;
+        z-index: 99999;
     }
     .activeModal{
         left: 0;
@@ -854,7 +856,7 @@ nav a:hover,
     }
     .head__main_block{
         padding: 15px 0;
-        justify-content: space-between;
+        justify-content: flex-start;
     }
     .hide__modal_triangle{
         display: none;
@@ -958,13 +960,13 @@ nav a:hover,
         margin-left: 6px;
     }
     .mobile__bell_modal{
-        left: 5px;
-        transform: translateX(0);
+        left: 50%;
+        transform: translateX(-50%);
     }
     .active__mobile_bell{
         opacity: 1;
         visibility: visible;
-        top: 60px;
+        top: 70px;
     }
     .media__hide_button a{
         text-transform: uppercase;
@@ -981,10 +983,46 @@ nav a:hover,
         justify-content: center;
         display: none;
     }
+    .head__burger{
+        margin-right: 50px;
+    }
+    .media__logo{
+        margin-right: auto;
+    }
     .singIn{
         justify-content: flex-start;
     }
     .singIn .head__burger{
-        margin-right: 100px;
+        margin-right: 50px;
+    }
+    .head__botton{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .mobile__singin_block .mobile__singIn{
+        padding-right: 35px;
+        justify-content: flex-end;
+    }
+    .mobile__singin_block .head__profile{
+        display: none;
+    }
+    .mobile__singin_block .mobile__singIn{
+        display: flex;
+    }
+    .mobile__singin_block .mobile__normal_menu{
+        display: none;
+    }
+    .mobile__singin_block .head__hide_bottom .head__logout{
+        display: none;
+    }
+    .mobile__singin_block .mobile__singin_menu{
+        display: flex;
+    }
+    .mobile__singin_menu{
+        display: none;
+        padding-top: 0;
+    }
+    .mobile__singin_menu > a{
+        padding-left: 60px;
     }
 }

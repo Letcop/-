@@ -88,7 +88,8 @@ body header {
 
 body header .head__media_modal,
 body header .hide__modal_block,
-body header .head__hide {
+body header .head__hide,
+body header .head__media_modal {
   z-index: 999 !important;
 }
 
@@ -103,11 +104,12 @@ body header .head__singIn_title {
 }
 
 body header .header_title {
-  margin-top: 120px;
+  margin-top: 100px;
 }
 
-body header .basic_header_title {
-  margin-top: 100px;
+body header .head__logine i,
+body header .head__name {
+  margin-top: -15px;
 }
 
 body header .header_title_text {
@@ -172,7 +174,7 @@ body header form input::placeholder {
 }
 
 body header .header_buttons {
-  margin: 25px 0;
+  margin: 30px 0;
 }
 
 body header .header_buttons button {
@@ -2006,6 +2008,9 @@ body .updates .updates_list .updates_btn:hover {
   }
   body .head__singIn {
     display: block !important;
+  }
+  body .head__main_block {
+    margin: 0 !important;
   }
 }
 

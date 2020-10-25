@@ -74,7 +74,8 @@ button:focus {
 
     .head__media_modal,
     .hide__modal_block,
-    .head__hide{
+    .head__hide,
+    .head__media_modal{
     z-index: 999 !important;
     
   }
@@ -87,10 +88,11 @@ button:focus {
     margin-right: 50px;
   }
   .header_title {
-    margin-top: 120px;
-  }
-  .basic_header_title {
     margin-top: 100px;
+  }
+  .head__logine i,
+  .head__name {
+    margin-top: -15px;
   }
   .header_title_text {
     font-size: 37px;
@@ -132,7 +134,7 @@ button:focus {
     font-weight: 300;
   }
   .header_buttons {
-    margin: 25px 0;
+    margin: 30px 0;
   }
   .header_buttons button {
     width: 220px;

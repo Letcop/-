@@ -1,22 +1,20 @@
 window.addEventListener('load', function() {
-	let singed = true;
+	let singed = true; // change the value to false for viewing in unauthorized mode
+
 	const sing = () => {
 		if(singed){
 			document.querySelector('.head__profile').style.display = "flex";
 		}else{
 			if(innerWidth <= 660){
-				document.querySelector('.mobile__singIn').style.display = "flex";
-				document.querySelector('.mobile__modal .head__profile').style.display = "none";
+				document.querySelector('.mobile__modal').classList.add('mobile__singin_block');
 				document.querySelector('.head__botton').style.display = "none";
 				document.querySelector('.head__main_block').classList.add('singIn');
-				document.querySelector('.head__hide_bottom .head__logout').style.display = 'none';
-				console.log(document.querySelector('.head__hide_bottom .head__logout'))
 
 			}else{
 				document.querySelector('.head__singIn').style.display = "block";
 				document.querySelector('.head__botton').style.display = "none";
 				document.querySelector('.head__right').style.width = "350px";
-				if(innerWidth <= 850){
+				if(innerWidth <= 850 && innerWidth >= 660){
 					document.querySelector('.head__burger').style.marginRight = "100px";
 				}	
 			}
@@ -56,7 +54,7 @@ window.addEventListener('load', function() {
 		}
 
 		function showHide(index,e) {
-			if(innerWidth <= 1040 && innerWidth >= 551 ){
+			if(innerWidth <= 1040 && innerWidth >= 661 ){
 				if(clas === 'activeProfile'){
 					let parent = triggerElem[index].offsetParent
 
@@ -76,7 +74,6 @@ window.addEventListener('load', function() {
 				}else{
 					if(triggerElem[index].classList.contains(clas) === true){
 						triggerElem[index].classList.remove(clas);
-						// showOverlay(false)
 					}else{
 						
 						for(let i = 0; i < triggerElem.length; i++){
@@ -86,15 +83,11 @@ window.addEventListener('load', function() {
 							document.querySelector('.head__right').classList.remove('activeProfile');
 							document.querySelector('.head__media_modal').classList.remove('activeModal');
 						}
-
 						triggerElem[index].classList.add(clas);
-						// showOverlay()
-
 					}
 				}
-				console.log('asd')
 
-			}else if (innerWidth <= 550) {
+			}else if (innerWidth <= 660) {
 				let mobileBell = document.querySelector('.mobile__bell_modal');
 				try {
 					document.querySelector('#remove__mobile').remove()
@@ -104,23 +97,19 @@ window.addEventListener('load', function() {
 				if(triggerElem[0].classList.contains('head__bell') === true){
 					if(mobileBell.classList.contains('active__mobile_bell') === true){
 						mobileBell.classList.remove('active__mobile_bell');
-						showOverlay(false)
 
 					}else{
 						mobileBell.classList.add('active__mobile_bell');
-						showOverlay()
 					}
 				}
 
 				if(triggerElem[index].classList.contains('media__active_hide') === true){
 					triggerElem[index].classList.remove('media__active_hide');
-					showOverlay(false)
 				}else{
 					for (var i = 0; i < triggerElem.length; i++) {
 						triggerElem[i].classList.remove('media__active_hide')
 					}
 					triggerElem[index].classList.add('media__active_hide');
-					showOverlay()
 
 				}
 
