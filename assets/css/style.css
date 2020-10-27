@@ -301,6 +301,12 @@ nav a:hover,
 .head__support:after{
 	background-color: #00CF4D;
 }
+.head__support:hover {
+    color: #00CF4D;
+}
+.head__logout:hover {
+    color: #706cff;
+}
 .head__logout:after{
 	background-color: #706cff;
 }
