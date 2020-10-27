@@ -312,31 +312,7 @@ button:focus {
     .user_projects {
       margin-top: 10px;
     }
-    .user_last_info_list .user_name span {
-      font-size: 17px;
-      font-weight: 500;
-      padding-top: 5px;
-    }
-    .user_projects span,
-    .user_projects_last span {
-      font-size: 13px;
-      color: rgb(161, 158, 158);
-      font-weight: 300;
-      }
       
-      .user_projects_last {
-       width: 30%;
-       line-height: 17px;
-    }
-    .user_title_info_last{
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-      width: 100%;
-    }
-    .user_job_last {
-      margin-top: -5px !important;
-    }
   }
   // End main **************************
 

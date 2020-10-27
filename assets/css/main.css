@@ -426,41 +426,6 @@ body main .user_projects {
   margin-top: 10px;
 }
 
-body main .user_last_info_list .user_name span {
-  font-size: 17px;
-  font-weight: 500;
-  padding-top: 5px;
-}
-
-body main .user_projects span,
-body main .user_projects_last span {
-  font-size: 13px;
-  color: #a19e9e;
-  font-weight: 300;
-}
-
-body main .user_projects_last {
-  width: 30%;
-  line-height: 17px;
-}
-
-body main .user_title_info_last {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  width: 100%;
-}
-
-body main .user_job_last {
-  margin-top: -5px !important;
-}
-
 body .interesting_box {
   background-color: #00cf4d;
   padding: 55px 0 35px;
